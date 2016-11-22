@@ -67,7 +67,7 @@ MENUITEMS = (
     ('Blog', '/category/blog.html'),
     ('Meetups', '/pages/meetups.html'),
     ('Classes', '/pages/classes.html'),
-    ('Arduino Crash Course','/pages/arduino-crash-course-prelude.html'),
+    ('Arduino Crash Course','http://freecourse.hackerspacetech.com'),
     ('Hacker Stars', '/pages/hacker-stars.html'),
     ('Tutorials', '/pages/tutorials.html'),
     ('Contact', '/pages/contact.html')
