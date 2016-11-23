@@ -319,7 +319,7 @@ Questions:</h3>
 <div style="color: #333333; font-family: 'helvetica neue', helvetica, arial, sans-serif; font-size: 14px; line-height: 20px;">
 <br /></div>
 <div style="text-align: center;">
-<span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><span style="font-size: 14px; line-height: 20px;"><a href="http://www.davidriewe.com/p/experiment-6-reading-photoresistor.html">**Experiment 6: Reading a Photoresistor**</a>&nbsp;-|-&nbsp;<a href="http://www.davidriewe.com/p/experiment-8-driving-servo-motor.html">**Experiment 8: Driving a Servo Motor**</a></span></span></div>
+<span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><span style="font-size: 14px; line-height: 20px;"><a href="/pages/experiment-6-reading-a-photoresistor.html">**Experiment 6: Reading a Photoresistor**</a>&nbsp;-|-&nbsp;<a href="/pages/experiment-8-driving-a-servo-motor.html">**Experiment 8: Driving a Servo Motor**</a></span></span></div>
 <div style="text-align: center;">
 <span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><br /></span></div>
 <h3 style="box-sizing: border-box; color: #555555; font-family: montserrat, 'helvetica neue', helvetica, arial, sans-serif; font-size: 20px; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 20px; text-align: center;">

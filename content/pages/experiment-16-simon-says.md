@@ -11,13 +11,13 @@ Now that we’ve learned all the basics behind the components in the SIK experim
 
 You will need the following parts:
 <ul>
-<li 1x Breadboard</li>
-<li 1x RedBoard or Arduino Uno</li>
-<li 4x LEDs</li>
-<li 1x Piezo Buzzer</li>
-<li 4x 330Ω Resistors</li>
-<li 4x Push Buttons</li>
-<li 17x Jumper Wires</li>
+<li> 1x Breadboard</li>
+<li> 1x RedBoard or Arduino Uno</li>
+<li> 4x LEDs</li>
+<li> 1x Piezo Buzzer</li>
+<li> 4x 330Ω Resistors</li>
+<li> 4x Push Buttons</li>
+<li> 17x Jumper Wires</li>
 </ul>
 
 ####Hardware Hookup
@@ -626,6 +626,6 @@ Once the piezo buzzer is in the breadboard, it’s hard to see the legs and to w
 
 If everything starts up ok, but you’re having trouble when it comes time to play the game, you may have a button or two misplaced. Pay close attention to which pin is connected to each button as it matters which button is pressed when a particular color lights up.
 
-<a href="http://www.davidriewe.com/p/experiment-15-using-lcd.html">Experiment 15: Using an LCD</a><a href="http://www.davidriewe.com/p/resources-and-going-further.html">Resources and Going Further</a>
+<a href="/pages/experiment-15-using-an-lcd.html">Experiment 15: Using an LCD</a><a href="http://www.davidriewe.com/p/resources-and-going-further.html">Resources and Going Further</a>
 Adapted from<a href="https://learn.sparkfun.com/tutorials/sik-experiment-guide-for-arduino---v32?_ga=1.62774956.1058471170.1443294570" rel="nofollow" target="_blank">Sparkfun Inventor Kit Experiential Guide</a></h3>
 

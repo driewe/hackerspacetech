@@ -288,23 +288,11 @@ Questions<span style="line-height: 1.1;">&nbsp;</span></h3>
 <li><span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><span style="font-size: 14px; line-height: 20px;">What range of values can 'sensorValue' have?</span></span></li>
 </ol>
 <div>
-<h3 style="box-sizing: border-box; color: #555555; font-family: montserrat, 'helvetica neue', helvetica, arial, sans-serif; font-size: 20px; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 20px;">
-Going Further</h3>
-</div>
-<div>
-Change you circuit so that the LED is connected to pin 9 of the redboard and load the sketch below:</div>
-<div>
-<br /></div>
-</div>
-</div>
-<iframe allowtransparency="true" frameborder="0" src="https://codebender.cc/embed/sketch:245623" style="height: 510px; margin: 10px 0 10px; width: 100%;"></iframe><br />
-<br />
-<br />
 <div style="background-color: white; box-sizing: border-box; margin-bottom: 10px;">
 <div style="color: #333333; font-family: 'helvetica neue', helvetica, arial, sans-serif; font-size: 14px; line-height: 20px;">
 <span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><br /></span></div>
 <div style="text-align: center;">
-<span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><span style="font-size: 14px; line-height: 20px;"><a href="http://www.davidriewe.com/p/experiment-1-blinking-led.html">Experiment 1: Blinking an LED</a>&nbsp;-|-&nbsp;<a href="http://www.davidriewe.com/p/experiment-3-driving-rgb-led.html">Experiment 3: Driving an RGB LED</a></span></span></div>
+<span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><span style="font-size: 14px; line-height: 20px;"><a href="/pages/experiment-1-blinking-an-led.html">Experiment 1: Blinking an LED</a>&nbsp;-|-&nbsp;<a href="/pages/experiment-3-driving-an-rgb-led.html">Experiment 3: Driving an RGB LED</a></span></span></div>
 </div>
 <h3 style="background-color: white; box-sizing: border-box; color: #555555; font-family: montserrat, 'helvetica neue', helvetica, arial, sans-serif; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 20px; text-align: center;">
 <span style="font-size: xx-small;"><span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif; line-height: 20px;">Adapted from&nbsp;</span><a href="https://learn.sparkfun.com/tutorials/sik-experiment-guide-for-arduino---v32?_ga=1.62774956.1058471170.1443294570" rel="nofollow" style="color: #7d181e; font-family: 'helvetica neue', helvetica, arial, sans-serif; line-height: 20px; text-decoration: none;" target="_blank">Sparkfun Inventor Kit Experiential Guide</a></span></h3>

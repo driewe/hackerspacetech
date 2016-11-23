@@ -177,6 +177,8 @@ void loop()
   // values will make the loop run faster. (Why?)
 }
 ```
+
+
 <h3 style="background-color: white; box-sizing: border-box; color: #555555; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 20px;">
 Code to Note</h3>
 <div style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px;">
@@ -222,7 +224,7 @@ Questions:</h3>
 <div style="color: #333333; font-family: 'helvetica neue', helvetica, arial, sans-serif; font-size: 14px; line-height: 20px;">
 <br /></div>
 <div style="text-align: center;">
-<span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><span style="font-size: 14px; line-height: 20px;"><a href="http://www.dentonisd.org/Page/82569">Experiments</a>&nbsp;-|-&nbsp;<a href="http://www.davidriewe.com/p/experiment-2-reading-potentiometer.html">**Experiment 2: Reading a Potentiometer**</a></span></span></div>
+<span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><span style="font-size: 14px; line-height: 20px;"><a href="/pages/experiment-2-reading-a-potentiometer.html">**Experiment 2: Reading a Potentiometer**</a></span></span></div>
 </div>
 <div class="row" style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-left: -15px; margin-right: -15px;">
 <br /></div>

@@ -57,4 +57,4 @@ Here are a few experiments using the oscilloscope to see what PWM looks like and
 
 Thank you for taking the time to read and learn more about me and my qualifications.  When you come to my meetups you are not going to encounter someone who has merely gone through the experiments of the kit.  What you will find is an experienced technician that knows both theory and practical application. I am confident that through participating in my workshop/classes that you will absorb my experience and skills to the point you will surpass me, and that would make me very happy :-)
 
-If you would like to join one of our current meetups click here.  If you would like contact me about offering Arduino Step by Step at a different venue click here.
+If you would like to join one of our [current meetups click here](http://www.meetup.com/hackerspacetech).  If you would like contact me about offering Arduino Step by Step at a different venue [click here](/pages/contact.html).
