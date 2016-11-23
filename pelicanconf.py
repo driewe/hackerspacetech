@@ -89,7 +89,8 @@ SOCIAL = (('twitter', 'http://www.twitter.com/hackerspacetech'),
           ('linkedin', 'http://www.linkedin.com/in/driewe'),
           ('github', 'http://www.github.com/driewe'),
           ('facebook', 'http://www.facebook.com/HackerSpaceTech'),
-          ('youtube', 'https://www.youtube.com/channel/UCxScU-1pFpDndfqXOLqwrUw'))
+          ('youtube', 'https://www.youtube.com/channel/UCxScU-1pFpDndfqXOLqwrUw'),
+          ('quora', 'https://www.quora.com/profile/David-Riewe'))
 
 DEFAULT_PAGINATION = 10
 
