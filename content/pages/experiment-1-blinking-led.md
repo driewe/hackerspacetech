@@ -10,17 +10,14 @@ LEDs are small, powerful lights that are used in many different applications. To
 ###Parts Needed
 
 ####You will need the following parts:
-<ul>
-<li>Breadboard</li>
-<li>RedBoard or Arduino Uno R3</li>
-<li>1x LED</li>
-<li>1x 330Ω Resistor</li>
-<li>2x Jumper Wires</li>
-</ul>
 
+* Breadboard
+* Redboard or Arduino Uno R3
+* 1x LED
+* 1x 330Ω Resistor
+* 2x Jumper Wires
 
-
-####Hardware hookup
+###Hardware hookup
 
 Ready to start hooking everything up? Check out the Fritzing diagram and hookup table below, to see how everything is connected.
 
@@ -28,7 +25,7 @@ Ready to start hooking everything up? Check out the Fritzing diagram and hookup 
 
 Components like resistors need to have their legs bent into 90° angles in order to correctly fit the breadboard sockets. You can also cut the legs shorter to make them easier to work with on the breadboard.
 
-####Fritzing Diagram for RedBoard
+###Fritzing Diagram for RedBoard
 
 <a href="https://cdn.sparkfun.com/assets/learn_tutorials/3/1/0/RedBoard_circuit_01_02_1.png"><img alt="alt text" src="https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/3/1/0/RedBoard_circuit_01_02_1.png"></a>
 
@@ -178,19 +175,15 @@ void loop()
 }
 ```
 
+###Code to Note</h3>
+```pinMode(13, OUTPUT);```
+Before you can use one of the Arduino’s pins, you need to tell the RedBoard or Arduino Uno R3 whether it is an INPUT or OUTPUT. We use a built-in “function” called ```pinMode()``` to do this.
 
-<h3 style="background-color: white; box-sizing: border-box; color: #555555; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 20px;">
-Code to Note</h3>
-<div style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px;">
-<code style="background: rgb(248, 248, 248); border-radius: 3px; border: 1px solid rgb(234, 234, 234); box-sizing: border-box; font-family: Consolas, 'Liberation Mono', Courier, monospace; font-size: 12px; margin: 0px 2px; padding: 0px 5px; white-space: nowrap;">pinMode(13, OUTPUT);</code></div>
-<div style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px;">
-Before you can use one of the Arduino’s pins, you need to tell the RedBoard or Arduino Uno R3 whether it is an INPUT or OUTPUT. We use a built-in “function” called&nbsp;<code style="background: rgb(248, 248, 248); border-radius: 3px; border: 1px solid rgb(234, 234, 234); box-sizing: border-box; font-family: Consolas, 'Liberation Mono', Courier, monospace; font-size: 12px; margin: 0px 2px; padding: 0px 5px; white-space: nowrap;">pinMode()</code>&nbsp;to do this.</div>
-<div style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px;">
-<code style="background: rgb(248, 248, 248); border-radius: 3px; border: 1px solid rgb(234, 234, 234); box-sizing: border-box; font-family: Consolas, 'Liberation Mono', Courier, monospace; font-size: 12px; margin: 0px 2px; padding: 0px 5px; white-space: nowrap;">digitalWrite(13, HIGH);</code></div>
-<div style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px;">
-When you’re using a pin as an OUTPUT, you can command it to be HIGH (output 5 volts), or LOW (output 0 volts).</div>
-<h3 style="background-color: white; box-sizing: border-box; color: #555555; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 20px;">
-What You Should See</h3>
+```digitalWrite(13, HIGH)```
+
+When you’re using a pin as an OUTPUT, you can command it to be HIGH (output 5 volts), or LOW (output 0 volts).
+
+###What You Should See
 <div style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px;">
 You should see your LED blink on and off. If it isn’t, make sure you have assembled the circuit correctly and verified and uploaded the code to your board, or see the troubleshooting section.</div>
 <div class="row" style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-left: -15px; margin-right: -15px;">
