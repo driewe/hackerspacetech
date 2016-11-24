@@ -33,7 +33,7 @@ Many Arduino and Genuino boards have a built-in LED connected to pin 13; if your
 click the image to enlarge<br />
 <div class="circuit" style="box-sizing: border-box; direction: ltr; margin: 0px; padding: 0px;">
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'typoninesans regular 18', 'lucida grande', lucida, verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">
-<a class="urllink" href="https://www.arduino.cc/en/uploads/Tutorial/ExampleCircuit_bb.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img alt="" height="300px" src="https://www.arduino.cc/en/uploads/Tutorial/ExampleCircuit_bb.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" /></a></div>
+<a class="urllink" href="https://www.arduino.cc/en/uploads/Tutorial/ExampleCircuit_bb.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img  height="300px" src="https://www.arduino.cc/en/uploads/Tutorial/ExampleCircuit_bb.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" /></a></div>
 <br />
 <br />
 image developed using <a href="http://www.fritzing.org/">Fritzing</a>. For more circuit examples, see the <a href="http://fritzing.org/projects/">Fritzing project page</a></div>
@@ -45,7 +45,7 @@ click the image to enlarge</div>
 <div class="circuit" style="box-sizing: border-box; direction: ltr; margin: 0px; padding: 0px;">
 <br />
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'typoninesans regular 18', 'lucida grande', lucida, verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">
-<a class="urllink" href="https://www.arduino.cc/en/uploads/Tutorial/ExampleCircuit_sch.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img alt="" height="300px" src="https://www.arduino.cc/en/uploads/Tutorial/ExampleCircuit_sch.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" /></a><br />
+<a class="urllink" href="https://www.arduino.cc/en/uploads/Tutorial/ExampleCircuit_sch.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img  height="300px" src="https://www.arduino.cc/en/uploads/Tutorial/ExampleCircuit_sch.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" /></a><br />
 <br /></div>
 </div>
 <span style="font-size: large;">Code</span><br />
@@ -183,7 +183,7 @@ void loop()
 <div style="box-sizing: border-box; direction: ltr; margin: 0px; padding: 0px;">
 <br />
 <span style="font-size: large;">Processing Code</span><br />
-Copy the Processing code from the code sample above. As you mouse over the center square, the LED on pin 13 should turn on and off. The Processing applet looks like this:<span style="color: #4f4e4e; font-family: &quot;typoninesans regular&quot; , &quot;lucida grande&quot; , &quot;lucida&quot; , &quot;verdana&quot; , sans-serif;"><span style="background-color: white; border-color: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border-style: initial; font-size: 18px; line-height: 31.5px;"><img alt="" src="https://www.arduino.cc/en/uploads/Tutorial/physicalPixel-output.png" style="border: 0px; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" /></span></span></div>
+Copy the Processing code from the code sample above. As you mouse over the center square, the LED on pin 13 should turn on and off. The Processing applet looks like this:<span style="color: #4f4e4e; font-family: &quot;typoninesans regular&quot; , &quot;lucida grande&quot; , &quot;lucida&quot; , &quot;verdana&quot; , sans-serif;"><span style="background-color: white; border-color: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border-style: initial; font-size: 18px; line-height: 31.5px;"><img  src="https://www.arduino.cc/en/uploads/Tutorial/physicalPixel-output.png" style="border: 0px; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" /></span></span></div>
 Mouse over the square to turn the LED on and off.<br />
 <br />
 <br />

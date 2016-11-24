@@ -35,7 +35,7 @@ click on the image to enlarge</div>
 <br />
 <div class="circuit" style="box-sizing: border-box; direction: ltr; margin: 0px; padding: 0px;">
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'TyponineSans Regular 18', 'Lucida Grande', Lucida, Verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">
-<a class="urllink" href="https://www.arduino.cc/en/uploads/Tutorial/SerialCallResponse-circuit3.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img alt="" src="https://www.arduino.cc/en/uploads/Tutorial/SerialCallResponse-circuit3.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" width="400px" /></a></div>
+<a class="urllink" href="https://www.arduino.cc/en/uploads/Tutorial/SerialCallResponse-circuit3.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img  src="https://www.arduino.cc/en/uploads/Tutorial/SerialCallResponse-circuit3.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" width="400px" /></a></div>
 <br />
 <br />
 image developed using <a href="http://www.fritzing.org/">Fritzing</a>. For more circuit examples, see the <a href="http://fritzing.org/projects/">Fritzing project page</a></div>
@@ -47,7 +47,7 @@ click the image to enlarge</div>
 <div class="circuit" style="box-sizing: border-box; direction: ltr; margin: 0px; padding: 0px;">
 <br />
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'TyponineSans Regular 18', 'Lucida Grande', Lucida, Verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">
-<a class="urllink" href="https://www.arduino.cc/en/uploads/Tutorial/SerialCallResponse_sch.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img alt="" src="https://www.arduino.cc/en/uploads/Tutorial/SerialCallResponse_sch.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" width="400px" /></a></div>
+<a class="urllink" href="https://www.arduino.cc/en/uploads/Tutorial/SerialCallResponse_sch.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img  src="https://www.arduino.cc/en/uploads/Tutorial/SerialCallResponse_sch.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" width="400px" /></a></div>
 </div>
 <span style="font-size: large;">Code</span></div>
 ```
@@ -210,7 +210,7 @@ void serialEvent(Serial myPort) {
 <br />
 Copy the Processing sketch from the code sample above. As you change the value of the analog sensor, you'll get a ball moving onscreen something like this. The ball will appear only when you push the button:<br />
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'TyponineSans Regular 18', 'Lucida Grande', Lucida, Verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">
-<img alt="" src="https://www.arduino.cc/en/uploads/Tutorial/serialCallResponse-output.png" style="border: 0px; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" /></div>
+<img src="https://www.arduino.cc/en/uploads/Tutorial/serialCallResponse-output.png" style="border: 0px; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" /></div>
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'TyponineSans Regular 18', 'Lucida Grande', Lucida, Verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">
 <br /></div>
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'TyponineSans Regular 18', 'Lucida Grande', Lucida, Verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">

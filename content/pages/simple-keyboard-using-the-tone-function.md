@@ -29,7 +29,7 @@ click the image to enlarge</div>
 <br />
 <div class="circuit" style="box-sizing: border-box; direction: ltr; margin: 0px; padding: 0px;">
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'typoninesans regular 18', 'lucida grande', lucida, verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">
-<a class="urllink" href="http://www.arduino.cc/en/uploads/Tutorial/arduino_fsrs_speaker_bb.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img alt="" src="http://www.arduino.cc/en/uploads/Tutorial/arduino_fsrs_speaker_bb.png" height="300px" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" /></a></div>
+<a class="urllink" href="http://www.arduino.cc/en/uploads/Tutorial/arduino_fsrs_speaker_bb.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img  src="http://www.arduino.cc/en/uploads/Tutorial/arduino_fsrs_speaker_bb.png" height="300px" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" /></a></div>
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'typoninesans regular 18', 'lucida grande', lucida, verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin-bottom: 1.5em; margin-left: auto; margin-right: auto; padding: 0px;">
 <span style="box-sizing: border-box; font-size: 14.94px;">image developed using&nbsp;<a class="urllink" href="http://www.fritzing.org/" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;" target="_blank">Fritzing</a>. For more circuit examples, see the&nbsp;<a class="urllink" href="http://fritzing.org/projects/" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;" target="_blank">Fritzing project page</a></span></div>
 <br />
@@ -37,7 +37,7 @@ click the image to enlarge</div>
 <br />
 click the image to enlarge<br />
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'typoninesans regular 18', 'lucida grande', lucida, verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">
-<a class="urllink" href="http://www.arduino.cc/en/uploads/Tutorial/arduino_fsrs_speaker_schem.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img alt="" src="http://www.arduino.cc/en/uploads/Tutorial/arduino_fsrs_speaker_schem.png" height="300px" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" /></a></div>
+<a class="urllink" href="http://www.arduino.cc/en/uploads/Tutorial/arduino_fsrs_speaker_schem.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img  src="http://www.arduino.cc/en/uploads/Tutorial/arduino_fsrs_speaker_schem.png" height="300px" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" /></a></div>
 </div>
 <h3 style="box-sizing: border-box; direction: ltr; font-stretch: normal; margin: 2rem 0px 1.0555rem; padding: 0px;">
 <span style="font-size: large;"><br /><span style="font-weight: normal;">Code</span></span><br />
@@ -102,7 +102,7 @@ The sketch uses an extra file, pitches.h. This file contains all the pitch value
 <br />
 To make the pitches.h file, either click on the button just below the serial monitor icon and choose "New Tab", or use Ctrl+Shift+N.<br />
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'TyponineSans Regular 18', 'Lucida Grande', Lucida, Verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">
-<img alt="" src="http://www.arduino.cc/en/uploads/Tutorial/New_Tab.png" style="border: 0px; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" /></div>
+<img  src="http://www.arduino.cc/en/uploads/Tutorial/New_Tab.png" style="border: 0px; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" /></div>
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'TyponineSans Regular 18', 'Lucida Grande', Lucida, Verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin-bottom: 1.5em; margin-left: auto; margin-right: auto; padding: 0px;">
 <br style="box-sizing: border-box;" />
 Then paste in the following code:</div>

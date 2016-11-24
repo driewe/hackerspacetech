@@ -24,7 +24,7 @@ This tutorial borrows from the <a href="http://www.arduino.cc/en/Tutorial/Loop">
 click the image to enlarge<br />
 <div class="circuit" style="box-sizing: border-box; direction: ltr; margin: 0px; padding: 0px;">
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'TyponineSans Regular 18', 'Lucida Grande', Lucida, Verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">
-<a class="urllink" href="http://www.arduino.cc/en/uploads/Tutorial/BarGraph_bb.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img alt="" src="http://www.arduino.cc/en/uploads/Tutorial/BarGraph_bb.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" width="400px" /></a></div>
+<a class="urllink" href="http://www.arduino.cc/en/uploads/Tutorial/BarGraph_bb.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img  src="http://www.arduino.cc/en/uploads/Tutorial/BarGraph_bb.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" width="400px" /></a></div>
 <br />
 <br />
 image developed using <a href="http://www.fritzing.org/">Fritzing</a>. For more circuit examples, see the <a href="http://fritzing.org/projects/">Fritzing project page</a><br />
@@ -33,7 +33,7 @@ image developed using <a href="http://www.fritzing.org/">Fritzing</a>. For more 
 <br />
 click the image to enlarge<br />
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'TyponineSans Regular 18', 'Lucida Grande', Lucida, Verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">
-<a class="urllink" href="http://www.arduino.cc/en/uploads/Tutorial/BarGraph2_schem.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img alt="" src="http://www.arduino.cc/en/uploads/Tutorial/BarGraph2_schem.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" width="400px" /></a></div>
+<a class="urllink" href="http://www.arduino.cc/en/uploads/Tutorial/BarGraph2_schem.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img  src="http://www.arduino.cc/en/uploads/Tutorial/BarGraph2_schem.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" width="400px" /></a></div>
 </div>
 <br />
 <span style="font-size: large;">Code</span><br />

@@ -1,7 +1,7 @@
 Title: Experiment 1: Blinking an LED
 status: hidden
 
-Adapted from <a href="https://learn.sparkfun.com/tutorials/sik-experiment-guide-for-arduino---v32?_ga=1.62774956.1058471170.1443294570" rel="nofollow" target="_blank">Sparkfun Inventor Kit Experiential Guide</a>
+*Adapted from [Sparkfun Inventor Kit Experiential Guide](https://learn.sparkfun.com/tutorials/sik-experiment-guide-for-arduino---v32?_ga=1.62774956.1058471170.1443294570)*
 
 ###Introduction
 
@@ -213,26 +213,14 @@ Questions:</h3>
 <span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><span style="font-size: 14px; line-height: 20px;"><br /></span></span></div>
 </div>
 </div>
-<div class="row" style="background-color: white; box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
-<div style="color: #333333; font-family: 'helvetica neue', helvetica, arial, sans-serif; font-size: 14px; line-height: 20px;">
-<br /></div>
-<div style="text-align: center;">
-<span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><span style="font-size: 14px; line-height: 20px;"><a href="/pages/experiment-2-reading-a-potentiometer.html">**Experiment 2: Reading a Potentiometer**</a></span></span></div>
-</div>
-<div class="row" style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-left: -15px; margin-right: -15px;">
-<br /></div>
-<div class="row" style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-left: -15px; margin-right: -15px;">
-<br /></div>
-<div class="row" style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-left: -15px; margin-right: -15px;">
-<div style="text-align: center;">
-Adapted from <a href="https://learn.sparkfun.com/tutorials/sik-experiment-guide-for-arduino---v32?_ga=1.62774956.1058471170.1443294570" rel="nofollow" target="_blank">Sparkfun Inventor Kit Experiential Guide</a><br />
-<br />
-<h2 style="color: #666666; font-family: 'Trebuchet MS', Trebuchet, Verdana, sans-serif; font-size: 22px; margin: 0px; position: relative; text-align: start;">
-<div style="text-align: center;">
-<span style="font-size: large;">Want to save some time learning&nbsp;</span><span style="font-size: large;">Arduino?</span></div>
-<span style="font-size: large;"><div style="text-align: center;">
-Join the thousands of awesome people to sign up for our<br />
-<a href="http://freecourse.hackerspacetech.com/" style="color: #888888; text-decoration: none;">FREE Arduino Video Crash Course!</a></div>
-</span></h2>
-</div>
-</div>
+
+
+<center>
+[Experiment 2: Reading a Potentiometer](/pages/experiment-2-reading-a-potentiometer.html)
+
+*Adapted from [Sparkfun Inventor Kit Experiential Guide](https://learn.sparkfun.com/tutorials/sik-experiment-guide-for-arduino---v32?_ga=1.62774956.1058471170.1443294570)*
+</center>
+
+
+
+

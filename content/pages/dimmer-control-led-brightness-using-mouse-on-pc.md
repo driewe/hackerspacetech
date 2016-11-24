@@ -33,7 +33,7 @@ Connect the 220 ohm current limiting resistor to digital pin 9, with an LED in s
 <div class="circuit" style="box-sizing: border-box; direction: ltr; margin: 0px; padding: 0px;">
 click the image to enlarge<br />
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'TyponineSans Regular 18', 'Lucida Grande', Lucida, Verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">
-<a class="urllink" href="https://www.arduino.cc/en/uploads/Tutorial/dimmer-circuit3.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img alt="" src="https://www.arduino.cc/en/uploads/Tutorial/dimmer-circuit3.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" width="300px" /></a></div>
+<a class="urllink" href="https://www.arduino.cc/en/uploads/Tutorial/dimmer-circuit3.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img  src="https://www.arduino.cc/en/uploads/Tutorial/dimmer-circuit3.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" width="300px" /></a></div>
 <br />
 <br />
 image developed using <a href="http://www.fritzing.org/">Fritzing</a>. For more circuit examples, see the <a href="http://fritzing.org/projects/">Fritzing project page</a><br />
@@ -45,7 +45,7 @@ click the image to enlarge</div>
 <div class="circuit" style="box-sizing: border-box; direction: ltr; margin: 0px; padding: 0px;">
 <br />
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'TyponineSans Regular 18', 'Lucida Grande', Lucida, Verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">
-<a class="urllink" href="https://www.arduino.cc/en/uploads/Tutorial/simplefade_pin9_schem.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img alt="" src="https://www.arduino.cc/en/uploads/Tutorial/simplefade_pin9_schem.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" width="250px" /></a></div>
+<a class="urllink" href="https://www.arduino.cc/en/uploads/Tutorial/simplefade_pin9_schem.png" rel="nofollow" style="box-sizing: border-box; color: #00979c; line-height: inherit; text-decoration: none;"><img  src="https://www.arduino.cc/en/uploads/Tutorial/simplefade_pin9_schem.png" style="border: none; box-sizing: border-box; display: inline-block; vertical-align: middle;" title="" width="250px" /></a></div>
 <div style="background-color: white; box-sizing: border-box; color: #4f4e4e; direction: ltr; font-family: 'TyponineSans Regular 18', 'Lucida Grande', Lucida, Verdana, sans-serif; font-size: 18px; line-height: 31.5px; margin: 0px; padding: 0px;">
 <br /></div>
 </div>
