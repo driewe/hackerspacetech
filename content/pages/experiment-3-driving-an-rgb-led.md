@@ -21,19 +21,18 @@ You will need the following parts:
 
 Ready to start hooking everything up? Check out the Fritzing diagram and hookup table below, to see how everything is connected.
 
-> Pay special attention to the component’s markings indicating how to place it on the breadboard. Polarized components can only be connected to a circuit in one direction. Polarized components are highlighted with a yellow warning triangle, in the table below.
+*Pay special attention to the component’s markings indicating how to place it on the breadboard. Polarized components can only be connected to a circuit in one direction. Polarized components are highlighted with a yellow warning triangle, in the table below.*
+
+<center>
 
 ###Fritzing Diagram for RedBoard
 
-<center>
 ![redboard](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/3/1/0/RedBoard_circuit_02_01.png)
-</center>
-
-
+ 
+ 
 ###Hookup Table
 
-<center>
-![](/images/sparkfuntutorial/exp3table.png)
+![Table](/images/sparkfuntutorial/exp3table.png)
 </center>
 
 ###Run the Sketch
@@ -369,9 +368,9 @@ A ```for()``` loop is used to repeat an action a set number of times across a ra
 
 ```
 if (x <= 255)
-{}
+    {}
 else
-  {} 
+    {} 
 ```
 
 “If / else” statements are used to make choices in your programs. The statement within the parenthesis () is evaluated; if it’s true, the code within the first brackets {} will run. If it’s not true, the code within the second brackets {} will run.
@@ -381,7 +380,7 @@ else
 You should see your LED turn on, but this time in new, crazy colors! If it isn’t, make sure you have assembled the circuit correctly and verified and uploaded the code to your board or see the troubleshooting section.
 
 <center>
-![](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/3/1/0/SIK_RedBoard_exp_03_01.jpg)
+![Redboard](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/3/1/0/SIK_RedBoard_exp_03_01.jpg)
 </center>
 
 ###Real World Application

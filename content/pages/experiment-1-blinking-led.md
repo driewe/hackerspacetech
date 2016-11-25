@@ -27,7 +27,9 @@ Components like resistors need to have their legs bent into 90° angles in order
 
 ###Fritzing Diagram for RedBoard
 
-<a href="https://cdn.sparkfun.com/assets/learn_tutorials/3/1/0/RedBoard_circuit_01_02_1.png"><img alt="alt text" src="https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/3/1/0/RedBoard_circuit_01_02_1.png"></a>
+<center>
+![Redboard](https://cdn.sparkfun.com/assets/learn_tutorials/3/1/0/RedBoard_circuit_01_02_1.png)
+</center>
 
 
 ```
@@ -184,36 +186,26 @@ Before you can use one of the Arduino’s pins, you need to tell the RedBoard or
 When you’re using a pin as an OUTPUT, you can command it to be HIGH (output 5 volts), or LOW (output 0 volts).
 
 ###What You Should See
-<div style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px;">
-You should see your LED blink on and off. If it isn’t, make sure you have assembled the circuit correctly and verified and uploaded the code to your board, or see the troubleshooting section.</div>
-<div class="row" style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-left: -15px; margin-right: -15px;">
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/3/1/0/SIK_RedBoard_exp_01_01.jpg" style="background: 0px 0px; box-sizing: border-box; color: #e0311d; margin-left: 1em; margin-right: 1em; text-decoration: none;"><img src="https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/3/1/0/SIK_RedBoard_exp_01_01.jpg" style="border: 0px; box-sizing: border-box; height: auto; max-width: 100%; vertical-align: middle;" /></a></div>
-<h3 style="box-sizing: border-box; color: #555555; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 20px;">
-Real World Application</h3>
-<div style="box-sizing: border-box; margin-bottom: 10px;">
-Almost all modern flat screen televisions and monitors have LED indicator lights to show they are on or off.</div>
-<div style="box-sizing: border-box; margin-bottom: 10px; text-align: center;">
-<a href="https://cdn.sparkfun.com/assets/learn_tutorials/3/1/0/circuit_01_rwa_02.png" style="background: 0px 0px; box-sizing: border-box; color: #e0311d; text-decoration: none;"><img alt="alt text" src="https://cdn.sparkfun.com/assets/learn_tutorials/3/1/0/circuit_01_rwa_02.png" style="border: 0px; box-sizing: border-box; height: auto; max-width: 100%; vertical-align: middle;" /></a></div>
-<div class="col-xs-6 col-md-6" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; position: relative; width: 390px;">
-</div>
-</div>
-<div class="row" style="background-color: white; box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
-<div style="color: #333333; font-family: 'helvetica neue', helvetica, arial, sans-serif; font-size: 14px; line-height: 20px;">
-<br /></div>
-<h3 style="box-sizing: border-box; color: #555555; font-family: montserrat, 'helvetica neue', helvetica, arial, sans-serif; font-size: 20px; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 20px;">
-Questions:</h3>
-<div>
-<ol>
-<li><span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><span style="font-size: 14px; line-height: 20px;">Which instruction controls the duration for which the LED it lit?</span></span></li>
-<li><span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><span style="font-size: 14px; line-height: 20px;">Symbolically, what is the difference between a diode and an LED?</span></span></li>
-<li><span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><span style="font-size: 14px; line-height: 20px;">What is the function of the 330 ohm resistor in the circuit?</span></span></li>
-</ol>
-<div>
-<span style="color: #333333; font-family: &quot;helvetica neue&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif;"><span style="font-size: 14px; line-height: 20px;"><br /></span></span></div>
-</div>
-</div>
 
+You should see your LED blink on and off. If it isn’t, make sure you have assembled the circuit correctly and verified and uploaded the code to your board, or see the troubleshooting section.
+
+<center>
+![Redboard](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/3/1/0/SIK_RedBoard_exp_01_01.jpg)
+</center>
+
+###Real World Applications
+
+Almost all modern flat screen televisions and monitors have LED indicator lights to show they are on or off.
+
+<center>
+![Circuit](https://cdn.sparkfun.com/assets/learn_tutorials/3/1/0/circuit_01_rwa_02.png)
+</center>
+
+###Questions
+
+* Which instruction controls the duration for which the LED it lit?
+* Symbolically, what is the difference between a diode and an LED?
+* What is the function of the 330 ohm resistor in the circuit?
 
 <center>
 [Experiment 2: Reading a Potentiometer](/pages/experiment-2-reading-a-potentiometer.html)

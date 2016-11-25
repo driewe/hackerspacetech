@@ -3,76 +3,46 @@ status: hidden
 
 
 *Adapted from [Sparkfun Inventor Kit Experiential Guide](https://learn.sparkfun.com/tutorials/sik-experiment-guide-for-arduino---v32?_ga=1.62774956.1058471170.1443294570)*
-<div>
-<h3 style="background-color: white; box-sizing: border-box; color: #555555; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 20px;">
-Introduction</h3>
-<div style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px;">
-In this circuit you’ll work with a&nbsp;<a href="https://learn.sparkfun.com/tutorials/resistors#types-of-resistors" rel="nofollow" style="background: 0px 0px; box-sizing: border-box; color: #e0311d; text-decoration: none;" target="_blank">potentiometer</a>.</div>
-<div style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px;">
-A potentiometer is also known as a variable resistor. When powered with 5V, the middle pin outputs a voltage between 0V and 5V, depending on the position of the knob on the potentiometer. A potentiometer is a perfect demonstration of a variable&nbsp;<a href="https://learn.sparkfun.com/tutorials/voltage-dividers" rel="nofollow" style="background: 0px 0px; box-sizing: border-box; color: #e0311d; text-decoration: none;" target="_blank">voltage divider</a>&nbsp;circuit. The voltage is divided proportionate to the resistance between the middle pin and the ground pin. In this circuit, you’ll learn how to use a potentiometer to control the brightness of an LED.</div>
-<h4 style="background-color: white; box-sizing: border-box; color: #555555; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 10px;">
-Parts Needed</h4>
-<div style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px;">
-You will need the following parts:</div>
-<ul style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px; margin-top: 0px;">
-<li style="box-sizing: border-box;"><span style="box-sizing: border-box; font-weight: 700;">1x</span>&nbsp;Breadboard</li>
-<li style="box-sizing: border-box;"><span style="box-sizing: border-box; font-weight: 700;">1x</span>&nbsp;RedBoard or Arduino Uno</li>
-<li style="box-sizing: border-box;"><span style="box-sizing: border-box; font-weight: 700;">1x</span>&nbsp;LED</li>
-<li style="box-sizing: border-box;"><span style="box-sizing: border-box; font-weight: 700;">1x</span>&nbsp;330Ω Resistor</li>
-<li style="box-sizing: border-box;"><span style="box-sizing: border-box; font-weight: 700;">6x</span>&nbsp;Jumper Wires</li>
-<li style="box-sizing: border-box;"><span style="box-sizing: border-box; font-weight: 700;">1x</span>&nbsp;Potentiometer</li>
-</ul>
-<div>
-<h4 style="background-color: white; box-sizing: border-box; color: #555555; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 10px;">
-Suggested Reading</h4>
-<div style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px;">
-Before continuing on with this experiment, we recommend you be familiar with the concepts in the following tutorial:</div>
-<ul style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px; margin-top: 0px;">
-<li style="box-sizing: border-box;"><a href="https://learn.sparkfun.com/tutorials/analog-to-digital-conversion" rel="nofollow" style="background: 0px 0px; box-sizing: border-box; color: #e0311d; text-decoration: none;">Analog to Digital Conversion</a></li>
-</ul>
-<h3 style="background-color: white; box-sizing: border-box; color: #555555; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 20px;">
-Hardware Hookup</h3>
-<div style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px;">
-Ready to start hooking everything up? Check out the Fritzing diagram and hookup table below, to see how everything is connected.</div>
-<table class="table table-bordered" style="background-color: white; border-collapse: collapse; border-spacing: 0px; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 20px; max-width: 100%; width: 650px;"><tbody style="box-sizing: border-box;">
-<tr class="warning" style="box-sizing: border-box;"><td align="center" class="form-control-feedback" style="background-color: #fcf8e3; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">Polarized Components<span class="glyphicon glyphicon-warning-sign" style="box-sizing: border-box; display: inline-block; font-family: &quot;glyphicons halflings&quot;; line-height: 1; position: relative; top: 1px;"></span></td><td align="left" style="background-color: #fcf8e3; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">Pay special attention to the component’s markings indicating how to place it on the breadboard. Polarized components can only be connected to a circuit in one direction. Polarized components are highlighted with a yellow warning triangle, in the table.</td></tr>
-</tbody></table>
-<h4 style="background-color: white; box-sizing: border-box; color: #555555; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 10px;">
-Fritzing Diagram for RedBoard</h4>
-<div style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px; text-align: center;">
-<a href="https://cdn.sparkfun.com/assets/learn_tutorials/3/1/0/RedBoard_circuit_02-v3_2.png" style="background: 0px 0px; box-sizing: border-box; color: #e0311d; text-decoration: none;"><img alt="RedBoard Fritzing Potentiometer" src="https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/3/1/0/RedBoard_circuit_02-v3_2.png" style="border: 0px; box-sizing: border-box; height: auto; max-width: 100%; vertical-align: middle;" /></a></div>
-<div style="background-color: white; box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 10px; text-align: center;">
-<em style="box-sizing: border-box;">Having a hard time seeing the circuit? Click on the Fritzing diagram to see a bigger image.</em><br />
-<em style="box-sizing: border-box;"><br /></em>
-<br />
-<h4 style="box-sizing: border-box; color: #555555; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 10px; text-align: start;">
-Hookup Table</h4>
-<div class="table-responsive" style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: start;">
-<table class="table table-bordered" style="background-color: transparent; border-collapse: collapse; border-spacing: 0px; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; margin-bottom: 20px; max-width: 100%; width: 650px;"><tbody style="box-sizing: border-box;">
-<tr style="box-sizing: border-box;"><th class="text-center" style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; text-align: center; vertical-align: top;">Component</th><th class="text-center" style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; text-align: center; vertical-align: top;">RedBoard or Arduino Uno R3</th><th class="text-center" style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; text-align: center; vertical-align: top;">Breadboard</th><th class="text-center" style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; text-align: center; vertical-align: top;">Breadboard</th><th class="text-center" style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; text-align: center; vertical-align: top;">Breadboard</th></tr>
-<tr align="center" style="box-sizing: border-box;"><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">330 Resistor</td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">j21</td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">( - )</td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td></tr>
-<tr align="center" class="warning" style="box-sizing: border-box;"><td class="form-control-feedback" style="background-color: #fcf8e3; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">LED&nbsp;<span class="glyphicon glyphicon-warning-sign" style="box-sizing: border-box; display: inline-block; font-family: &quot;glyphicons halflings&quot;; line-height: 1; position: relative; top: 1px;"></span></td><td style="background-color: #fcf8e3; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td><td style="background-color: #fcf8e3; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">h20 | LED ( + )</td><td style="background-color: #fcf8e3; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">h21 | LED ( - )</td><td style="background-color: #fcf8e3; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td></tr>
-<tr align="center" style="box-sizing: border-box;"><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">Potentiometer</td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">a6</td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">a7</td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">a8</td></tr>
-<tr align="center" style="box-sizing: border-box;"><td bgcolor="#DDDDDD" style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">Jumper Wire</td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">e6</td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">( - )</td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td></tr>
-<tr align="center" style="box-sizing: border-box;"><td class="success" style="background-color: #dff0d8; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">Jumper Wire</td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">A0</td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">e7</td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td></tr>
-<tr align="center" style="box-sizing: border-box;"><td class="danger" style="background-color: #f2dede; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">Jumper Wire</td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">e8</td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">( + )</td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td></tr>
-<tr align="center" style="box-sizing: border-box;"><td class="warning" style="background-color: #fcf8e3; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">Jumper Wire</td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">PIN 13</td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">j20</td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td></tr>
-<tr align="center" style="box-sizing: border-box;"><td class="danger" style="background-color: #f2dede; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">Jumper Wire</td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">5V</td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">( + )</td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td></tr>
-<tr align="center" style="box-sizing: border-box;"><td bgcolor="#DDDDDD" style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">Jumper Wire</td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">GND</td><td class="active" style="background-color: whitesmoke; border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;">( - )</td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td><td style="border: 1px solid rgb(221, 221, 221); box-sizing: border-box; line-height: 1.42857; padding: 8px; vertical-align: top;"></td></tr>
-</tbody></table>
-</div>
-<div style="text-align: left;">
-<em style="box-sizing: border-box;"></em></div>
-<div style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 10px;">
-<em style="box-sizing: border-box;">In the table,&nbsp;<a href="https://learn.sparkfun.com/tutorials/polarity" style="background: 0px 0px; box-sizing: border-box; color: #e0311d; text-decoration: none;">polarized</a>&nbsp;components are highlighted in&nbsp;<span style="box-sizing: border-box; font-weight: 700;">yellow</span>&nbsp;for the&nbsp;<span style="box-sizing: border-box; font-weight: 700;">whole row</span>&nbsp;and a warning triangle. Polarized components only be connected to a circuit in one direction.</em><br />
-<div style="text-align: left;">
-<em style="box-sizing: border-box;"></em></div>
-<h3 style="box-sizing: border-box; color: #555555; font-family: montserrat, 'helvetica neue', helvetica, arial, sans-serif; font-size: 20px; font-weight: 400; line-height: 1.1; margin-bottom: 10px; margin-top: 20px; text-align: left;">
-Run the Sketch</h3>
-</div>
-</div>
-</div>
-</div>
+
+###Introduction
+
+In this circuit you’ll work with <a href="https://learn.sparkfun.com/tutorials/resistors#types-of-resistors" rel="nofollow" style="background: 0px 0px; box-sizing: border-box; color: #e0311d; text-decoration: none;" target="_blank">potentiometer</a>.
+
+A potentiometer is also known as a variable resistor. When powered with 5V, the middle pin outputs a voltage between 0V and 5V, depending on the position of the knob on the potentiometer. A potentiometer is a perfect demonstration of a variable <a href="https://learn.sparkfun.com/tutorials/voltage-dividers" rel="nofollow" style="background: 0px 0px; box-sizing: border-box; color: #e0311d; text-decoration: none;" target="_blank">voltage divider</a> circuit. The voltage is divided proportionate to the resistance between the middle pin and the ground pin. In this circuit, you’ll learn how to use a potentiometer to control the brightness of an LED.
+
+###Parts Needed
+
+You will need the following parts:
+
+* Breadboard
+* RedBoard or Arduino Uno
+* LED
+* 330Ω Resistor
+* Jumper Wires
+* Potentiometer
+
+####Hardware Hookup
+
+Ready to start hooking everything up? Check out the Fritzing diagram and hookup table below, to see how everything is connected.
+
+*Polarized Components: Pay special attention to the component’s markings indicating how to place it on the breadboard. Polarized components can only be connected to a circuit in one direction. Polarized components are highlighted with a yellow warning triangle, in the table.*
+
+<center>
+
+###Fritzing Diagram for RedBoard
+
+![Circuit](https://cdn.sparkfun.com/assets/learn_tutorials/3/1/0/RedBoard_circuit_02-v3_2.png)
+</center>
+
+
+<center>
+###Hookup Table
+
+![hook up](/images/sparkfuntutorial/exp2table.png)
+</center>
+
+###Run the Sketch
+
 ```
 /*
 SparkFun Inventor's Kit
@@ -250,7 +220,7 @@ void loop() // this function runs repeatedly after setup() finishes
 
 ###Code To Note
 
-```int sensorValue;```
+`int sensorValue;`
 
 A “variable” is a placeholder for values that may change in your code. You must introduce, or “declare” variables before you use them; here we’re declaring a variable called sensorValue, of type “int” (integer). Don’t forget that variable names are case-sensitive!
 ```sensorValue = analogRead(sensorPin)```
@@ -259,13 +229,15 @@ We use the ```analogRead()``` function to read the value on an analog pin.  ```a
 ```delay(sensorValue)```
 
 Microcontrollers are very fast, capable of running thousands of lines of code each second. To slow it down so that we can see what it’s doing, we’ll often insert delays into the code. ```delay()``` counts in milliseconds; there are 1000 ms in one second.
-
+ 
 ###What You Should See
-
+ 
 You should see the LED blink faster or slower in accordance with your potentiometer. If it isn’t working, make sure you have assembled the circuit correctly and verified and uploaded the code to your board, or see the troubleshooting section.
+
 <center>
 ![Redboard](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/3/1/0/SIK_RedBoard_exp_02_01.jpg)
 </center>
+
 ###Real World Application
 
 Most traditional volume knobs employ a potentiometer.
