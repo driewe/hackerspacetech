@@ -45,28 +45,26 @@ h6 {
 </row>
 </div>
 
+<h4>Construction Of Panel</h4>
 
+<h5>With both 1x4 panels wired up it is time to get ready for mounting to a permanent base.  I chose a sheet of plexiglass I had lying around that was 1/8" thickness.
+Prior to starting the build I had laid all eight panels out on a xerox machine and produced a outline of where all the holes in the pc boards were located.  Using this as a guide I drilled holes int he plexi-glass for mounting the 8x8 matrix panels. </h5>
+<div class="container-fluid">
+<row>
+    <div class="col-sm-4">
+        <a href="/images/fadecandy/premount.resized.jpg" title="Click To Enlarge"><img src="/images/fadecandy/premount.resized.jpg" class="img-rounded img-responsive img-thumbnail"></a>
+    </div>
+    <div class="col-sm-4">
+        <a href="/images/fadecandy/rearview.resized.jpg" title="Click To Enlarge"><img src="/images/fadecandy/rearview.resized.jpg" class="img-rounded img-responsive img-thumbnail"></a>
+        <h6>Rear view of mounted panels</h6>
+    </div>
+    <div class="col-sm-4">
+        <a href="/images/fadecandy/frontview.resized.jpg" title="Click To Enlarge"><img src="/images/fadecandy/frontview.resized.jpg" class="img-rounded img-responsive img-thumbnail"></a>
+        <h6>Front view of mounted panels</h6>
+    </div>
+</row>
+</div>
 
-
-
-
-
-
-
-<h4>Testing the panel at 50% brightness!</h4>
-<a href="/images/fadecandy/20160425_170525.resized.jpg" title="Click To Enlarge"><img src="/images/fadecandy/20160425_170525.resized.jpg" class="img-rounded img-responsive img-thumbnail"></a>
-
-<h4>With both 1x4 panels wired up it is time to get ready for mounting to a permanent base.  I chose a sheet of plexiglass I had lying around that was 1/8" thickness.
-Prior to starting the build I had laid all eight panels out on a xerox machine and produced a outline of where all the holes in the pc boards were located.  Using this as a guide I drilled holes int he plexi-glass for mounting the 8x8 matrix panels. </h4>
-
-<a href="/images/fadecandy/premount.resized.jpg" title="Click To Enlarge"><img src="/images/fadecandy/premount.resized.jpg" class="img-rounded img-responsive img-thumbnail"></a>
-
-<h4>Rear view of mounted panels</h4>
-
-<a href="/images/fadecandy/rearview.resized.jpg" title="Click To Enlarge"><img src="/images/fadecandy/rearview.resized.jpg" class="img-rounded img-responsive img-thumbnail"></a>
-
-<h4>Front view of mounted panels</h4>
-<a href="/images/fadecandy/frontview.resized.jpg" title="Click To Enlarge"><img src="/images/fadecandy/frontview.resized.jpg" class="img-rounded img-responsive img-thumbnail"></a>
 
 <h4>Here is a short video of the 16x32 panel without any diffuser</h4>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PqErA3lq35Q" frameborder="0" allowfullscreen></iframe>
