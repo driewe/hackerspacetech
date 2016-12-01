@@ -3,32 +3,48 @@ Date: 2016-11-08
 Category: Blog
 Tags: Arduino, Programming, Tutorials
 Author: David Riewe
+
+<style>
+h6 {
+    text-align: center;
+}
+</style>
+
  <div class="jumbotron">
-Sometimes you want everything in the program to stop while a given condition is true. You can do this using a [while loop](http://www.arduino.cc/en/Reference/While). This example shows how to use a while loop to [calibrate](http://www.arduino.cc/en/Tutorial/Calibration) the value of an analog sensor.
+<h5>Sometimes you want everything in the program to stop while a given condition is true. You can do this using a [while loop](http://www.arduino.cc/en/Reference/While). This example shows how to use a while loop to [calibrate](http://www.arduino.cc/en/Tutorial/Calibration) the value of an analog sensor.</h5>
 
-In the main loop, the sketch below reads the value of a photoresistor on analog pin 0 and uses it to fade an LED on pin 9. But while a button attached to digital pin 2 is pressed, the program runs a method called calibrate() that looks for the highest and lowest values of the analog sensor. When you release the button, the sketch continues with the main loop.
+<h5>In the main loop, the sketch below reads the value of a photoresistor on analog pin 0 and uses it to fade an LED on pin 9. But while a button attached to digital pin 2 is pressed, the program runs a method called calibrate() that looks for the highest and lowest values of the analog sensor. When you release the button, the sketch continues with the main loop.</h5>
 
-This technique lets you update the maximum and minimum values for the photoresistor when the lighting conditions change.
+<h5>This technique lets you update the maximum and minimum values for the photoresistor when the lighting conditions change.</h5>
 
-###Hardware Required
-* Arduino
-* pushbutton or switch
-* photoresistor or another analog sensor
-* 2 10k ohm resistors
-* breadboard
+<h4>Hardware Required</h4>
+<ul>
+<li>Arduino</li>
+<li>pushbutton or switch</li>
+<li>photoresistor or another analog sensor</li>
+<li>2 10k ohm resistors</li>
+<li>breadboard</li>
+</ul>
 
-###Circuit
+<h4>Circuit</h4>
+<div class="container-fluid">
+<row>
+    <div class="col-sm-4">
+        <p><h5>Connect your analog sensor (e.g. potentiometer, light sensor) on analog input 2 with a 10K ohm resistor to ground. Connect your button to digital pin, again with a 10K ohm resistor to ground. Connect your LED to digital pin 9, with a 220 ohm resistor in series.</h5></p>
+    </div>
 
-Connect your analog sensor (e.g. potentiometer, light sensor) on analog input 2 with a 10K ohm resistor to ground. Connect your button to digital pin, again with a 10K ohm resistor to ground. Connect your LED to digital pin 9, with a 220 ohm resistor in series.
+    <div class="col-sm-4">
+        <a href="http://www.arduino.cc/en/uploads/Tutorial/while_bb.png" title="Click To Enlarge"><img src="http://www.arduino.cc/en/uploads/Tutorial/while_bb.png" class="img-rounded img-responsive img-thumbnail"></a>
+        <h6>Circuit</h6>
+    </div>
+    <div class="col-sm-4">
+        <a href="http://www.arduino.cc/en/uploads/Tutorial/whileloop_schem.png" title="Click To Enlarge"><img src="http://www.arduino.cc/en/uploads/Tutorial/whileloop_schem.png" class="img-rounded img-responsive img-thumbnail"></a>
+        <h6>Schematic</h6>
+    </div>
+</row>
+</div>
 
-![Circuit](http://www.arduino.cc/en/uploads/Tutorial/while_bb.png)
-
-*image developed using Fritzing. For more circuit examples, see the Fritzing project page*
-
-###Schematic
-![Arduino](http://www.arduino.cc/en/uploads/Tutorial/whileloop_schem.png)
-
-###Code 
+<h4>Code</h4> 
 ```
 /*
   Conditionals - while statement
