@@ -58,7 +58,7 @@ DEFAULT_LANG = 'en'
 #TRANSLATION_FEED_ATOM = None
 #AUTHOR_FEED_ATOM = None
 #AUTHOR_FEED_RSS = None
-#SHOW_ARTICLE_AUTHOR = True
+SHOW_ARTICLE_AUTHOR = True
 
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
@@ -77,12 +77,11 @@ MENUITEMS = (
 LINKS = (('Free Arduino Class', 'http://freecourse.hackerspacetech.com'),
         ('Register For PEA', 'http://programmingelectronics.com/hackerspacetech'),
         ('HackerSpaceTech Meetup', 'http://www.meetup.com/hackerspacetech'),
+        ('Fadecandy 16x32 Project', 'http://hackerspacetech.com/16x32-NeoPixel-FadeCandy-Display/'),
+        ('Infra Red Controlled Robot', 'http://hackerspacetech.com/RemoteControlRobotIR/'),
         ('TheLab.ms', 'https://thelab.ms/'),
         ('Dallas Maker Space', 'https://dallasmakerspace.org/'),
-        ('Hackster.io', 'https://www.hackster.io/driewe'),
-        ('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),)
+        ('Hackster.io', 'https://www.hackster.io/driewe'),)
 
 # Social widget
 SOCIAL = (('twitter', 'http://www.twitter.com/hackerspacetech'),

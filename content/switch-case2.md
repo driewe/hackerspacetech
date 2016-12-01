@@ -2,7 +2,7 @@ Title: Switch Case 2: A second switch-case example, showing how to take differen
 Date: 2016-11-09
 Category: Blog
 Tags: Arduino, Programming, Tutorials
-
+ <div class="jumbotron">
 An if statement allows you to choose between two discrete options, TRUE or FALSE. When there are more than two options, you can use multiple if statements, or you can use the switch statement. Switch allows you to choose between several discrete options.
 
 This tutorial shows you how to use switch to turn on one of several different LEDs based on a byte of data received serially. The sketch listens for serial input, and turns on a different LED for the characters a, b, c, d, or e.
@@ -97,3 +97,4 @@ void loop()
     }
 }
 ```
+</div>

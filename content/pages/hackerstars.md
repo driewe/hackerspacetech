@@ -1,18 +1,27 @@
 Title: Hacker Stars
 
-<br>
-#### Below are the contributors to this site.  
-<br>
- [**Blaž Pongrac**](/author/blaz-pongrac.html) - A maker with almost 10 years of experience with Arduino programming and electronics and 2 years of experience with 3D printing (check out his [Thingiverse profile](http://www.thingiverse.com/vonPongrac/about)). Blaž has a BSc from Automation and Robotics and is currently working on a MSc in the same field. Learn more about Blaž on [Fiverr](https://www.fiverr.com/robosap) and [Instructables](http://www.instructables.com/member/vonPongrac/). Also check [Viki One](https://www.facebook.com/vikitherobot/), where he works as project manager.
+<div class="jumbotron">
+<div class="container-fluid">
 
-[**David Riewe**](/author/david-riewe.html) - Electronics Tech with over 20 years of experience in the computer industry.  I enjoy building micro-controlled projects, programming and web development.  <a href="/pages/bio.html"> read my full bio here</a>.  
+  <div class="panel panel-default panel-primary">
+    <div class="panel-heading"><h4>Below are the contributors to this site.</h4></div>
+    <div class="panel-body">
+    <ul>
+          <li><p><h5><a href="/author/blaz-pongrac.html"><b>Blaž Pongrac</b></a> - A maker with almost 10 years of experience with Arduino programming and electronics and 2 years of experience with 3D printing (check out his <a href="http://www.thingiverse.com/vonPongrac/about" target="_blank">Thingiverse profile</a>. Blaž has a BSc from Automation and Robotics and is currently working on a MSc in the same field. Learn more about Blaž on <a href="https://www.fiverr.com/robosap" target="_blank">Fiverr</a> and <a href="http://www.instructables.com/member/vonPongrac" target="_blank">Instructables</a>. Also check <a href="https://www.facebook.com/vikitherobot" target="_blank">Viki One</a>, where he works as project manager.</h5></p></li>
+          
+          <li><p><h5><a href="/author/david-riewe.html"><b>David Riewe</b></a> - Electronics Tech with over 20 years of experience in the computer industry.  I enjoy building micro-controlled projects, programming and web development.  <a href="/pages/bio.html"> read my full bio here</a>. </h5> </li>
+          
+          <li><p><h5><b><a href="/author/scott-reesor.html">Scott Reesor</b></a> - An electrical engineer with industrial experience ranging from electrical drives to PCB design. Designing PCB’s is not just a vocation but a very serious hobby that He really enjoys doing. Scott is always designing new boards as a way testing new circuits and ideals plus it provides him with a way of improving upon his skills as a designer. Not only does He design the PCB’s in Eagle Cad but He also fabricates the boards himself as a way of further testing the design.  Scott has some great projects and tutorials in the work for our readers.  Meanwhile, learn more about Scott on his <a href="https://www.fiverr.com/engineering6000" target="_blank">fiverr</a> page.</h5></p></li>
 
-**Scott Reesor** - An electrical engineer with industrial experience ranging from electrical drives to PCB design. Designing PCB’s is not just a vocation but a very serious hobby that He really enjoys doing. Scott is always designing new boards as a way testing new circuits and ideals plus it provides him with a way of improving upon his skills as a designer. Not only does He design the PCB’s in Eagle Cad but He also fabricates the boards himself as a way of further testing the design.  Scott has some great projects and tutorials in the work for our readers.  Meanwhile, learn more about Scott on his [fiverr](https://www.fiverr.com/engineering6000) page.
-<br>
-<br>
-####Would You Like To Be A Contributor?
+     </ul></div>
+  </div>
 
-HackerSpaceTech has 28,000 followers on Twitter and we are looking for some Hacker Stars to contibute cool projects to this site.  In exchange for your contribution we will promote your project on this site as well as on Twitter. This is a great way to get your project in front of thousands of people and bring traffic back to your own site.  
+  <div class="panel panel-default panel-primary">
+    <div class="panel-heading"><h4>Would You Like To Be A Contributor?</h4></div>
+    <div class="panel-body">
+    <p><h5>HackerSpaceTech has 28,000 followers on Twitter and we are looking for some Hacker Stars to contibute cool projects to this site.  In exchange for your contribution we will promote your project on this site as well as on Twitter. This is a great way to get your project in front of thousands of people and bring traffic back to your own site.</h5></p>
+    <p><h5>If you would like to be considered for this opportunity, or if you would like to nominate someone, please <a href="/pages/contact.html">contact me</a>.</h5></p>
 
-If you would like to be considered for this opportunity, or if you would like to nominate someone, please [contact me](/pages/contact.html).
-
+     
+  </div>
+</div>

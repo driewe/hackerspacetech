@@ -2,31 +2,53 @@ Title: Virtual Color Mixer
 Date: 2016-11-12
 Category: Blog
 Tags: Arduino, Programming, Tutorials, Processing
+Author: David Riew
 
-This example demonstrates how to send multiple values from the Arduino board to the computer. The readings from three potentiometers are used to set the red, green, and blue components of the background color of a Processing sketch.
+<style>
+h6 {
+    text-align: center;
+}
+ 
+</style>
 
-####Hardware Required
+ <div class="jumbotron">
 
-* Arduino or Genuino Board
-* 3 Analog Sensors (potentiometer, photocell, FSR, etc.)
-* 3 10K ohm resistors
-* hook-up wires
-* breadboard
+<p><h5>This example demonstrates how to send multiple values from the Arduino board to the computer. The readings from three potentiometers are used to set the red, green, and blue components of the background color of a Processing sketch.</h5></p>
 
-####Software Required
+<h4>Hardware Required</h4>
+<ul>
+<li>Arduino or Genuino Board</li>
+<li>3 Analog Sensors (potentiometer, photocell, FSR, etc.)</li>
+<li>3 10K ohm resistors</li>
+<li>hook-up wires</li>
+<li>breadboard</li>
+</ul>
 
-* Processing
+<h4>Software Required</h4>
+<ul><li>Processing</li></ul>
 
-####Circuit
+<div class="container-fluid">
+<row>
+    <div class="col-sm-4">
+        <h4>Circuit</h4>
+        <p><h5>Connect analog sensors to analog input pins 0, 1, and 2.</h5></p>
+        <p><h5>This circuit uses three voltage divider sub-circuits to generate analog voltages from the force-sensing resistors. a voltage divider has two resistors in series, dividing the voltage proportionally to their values.</h5></p>
+    </div>
+    
+    <div class="col-sm-4">
+        <a href="https://www.arduino.cc/en/uploads/Tutorial/virtualColorMixer_bb.png" title="Click To Enlarge"><img src="https://www.arduino.cc/en/uploads/Tutorial/virtualColorMixer_bb.png" class="img-rounded img-responsive img-thumbnail"></a>
+    </div>
 
-Connect analog sensors to analog input pins 0, 1, and 2.
+    <div class="col-sm-4">
+        <a href="https://www.arduino.cc/en/uploads/Tutorial/VCM_schem.png" title="Click To Enlarge"><img src="https://www.arduino.cc/en/uploads/Tutorial/VCM_schem.png" class="img-rounded img-responsive img-thumbnail"></a>  
+    </div>
 
-This circuit uses three voltage divider sub-circuits to generate analog voltages from the force-sensing resistors. a voltage divider has two resistors in series, dividing the voltage proportionally to their values.
+</row>
+</div>
 
-![breadboard](https://www.arduino.cc/en/uploads/Tutorial/virtualColorMixer_bb.png)
-####Schematic
-![circuit](https://www.arduino.cc/en/uploads/Tutorial/VCM_schem.png)
-####Code
+
+<h4>Code</h4>
+
 ```
 /*
   This example reads three analog sensors (potentiometers are easiest)
@@ -64,8 +86,13 @@ void loop()
 	Serial.println(analogRead(bluePin));
 }
 
-/* Processing code for this example
+```
+<h4>Processing Code</h4>
 
+<p><h5>As you change the value of the analog sensors, the background color will change:</h5></p>
+
+<img src="https://www.arduino.cc/en/uploads/Tutorial/virtualColorMixer-output.png">
+```
 //  This example code is in the public domain.
 
 import processing.serial.*;
@@ -117,14 +144,9 @@ void serialEvent(Serial myPort) {
     }
   }
 }
-
- */
 ```
-####Processing Code
 
-Copy the Processing sketch from the code sample above. As you change the value of the analog sensors, the background color will change:
-
-![Processing](https://www.arduino.cc/en/uploads/Tutorial/virtualColorMixer-output.png)
-
-####Video Demonstration
+<h4>Video Demonstration</h4>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kPKBdf-KYZU" frameborder="0" allowfullscreen></iframe>
+
+</div>
