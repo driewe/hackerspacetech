@@ -3,7 +3,7 @@ Title: Control an 8x8 LED matrix display with the MAX7219 controller
 <div class="jumbotron">
 <div class="container-fluid">
 
-<span style="color: red;">**&nbsp;</span><a href="http://www.meetup.com/TechmillDenton/" rel="nofollow" style="text-align: center;" target="_blank">Visit Our Meetup Page To Register For Free Workshop</a><span style="color: red;">&nbsp;**</span><br />
+<span style="color: red;">**&nbsp;</span><a href="http://www.meetup.com/HackerSpaceTech/" rel="nofollow" style="text-align: center;" target="_blank">Visit Our Meetup Page To Register For Free Workshop</a><span style="color: red;">&nbsp;**</span><br />
 <br />
 <span style="font-size: x-large;"><a href="http://txplore.tv/courses/arduino-sbs/lectures/276205?affcode=6107_xiz8dp9c" rel="nofollow" target="_blank">Control an 8x8 LED Matrix Display With MAX7219 controller&nbsp;</a></span><br />
 <blockquote class="tr_bq">

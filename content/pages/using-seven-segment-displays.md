@@ -4,7 +4,7 @@ Title: Using Seven Segment Displays
 <div class="container-fluid">
 
 <div class="tr_bq">
-<span style="color: red;">**&nbsp;</span><a href="http://www.meetup.com/TechmillDenton/" rel="nofollow" style="text-align: center;" target="_blank">Visit Our Meetup Page To Register For Free Workshop</a><span style="color: red;">&nbsp;**</span><br />
+<span style="color: red;">**&nbsp;</span><a href="http://www.meetup.com/HackerSpaceTech/" rel="nofollow" style="text-align: center;" target="_blank">Visit Our Meetup Page To Register For Free Workshop</a><span style="color: red;">&nbsp;**</span><br />
 <span style="color: red;"><br /></span>
 <span style="font-size: x-large;"><a href="http://txplore.tv/courses/arduino-sbs/lectures/276203" rel="nofollow" target="_blank">Seven Segment LED Displays</a></span></div>
 <blockquote>

@@ -4,7 +4,7 @@ Title: Using LCD Screens
 <div class="container-fluid">
 
 <div class="tr_bq">
-<span style="color: red;">**&nbsp;</span><a href="http://www.meetup.com/TechmillDenton/" rel="nofollow" style="text-align: center;" target="_blank">Visit Our Meetup Page To Register For Free Workshop</a><span style="color: red;">&nbsp;**</span><br />
+<span style="color: red;">**&nbsp;</span><a href="http://www.meetup.com/HackerSpaceTech/" rel="nofollow" style="text-align: center;" target="_blank">Visit Our Meetup Page To Register For Free Workshop</a><span style="color: red;">&nbsp;**</span><br />
 <br />
 <span style="font-size: x-large;"><a href="http://txplore.tv/courses/arduino-sbs/lectures/276195?affcode=6107_xiz8dp9c" rel="nofollow" target="_blank">LCD character screen</a></span></div>
 <blockquote class="tr_bq">

@@ -4,7 +4,7 @@ Title: Arduino - Stepper Motors
 <div class="container-fluid">
 
 <div style="text-align: center;">
-<span style="color: red;">**&nbsp;</span><a href="http://www.meetup.com/TechmillDenton/" rel="nofollow" style="text-align: center;" target="_blank">Visit Our Meetup Page To Register For Free Workshop</a><span style="color: red;">&nbsp;**</span></div>
+<span style="color: red;">**&nbsp;</span><a href="http://www.meetup.com/HackerSpaceTech/" rel="nofollow" style="text-align: center;" target="_blank">Visit Our Meetup Page To Register For Free Workshop</a><span style="color: red;">&nbsp;**</span></div>
 <br />
 <span style="font-size: x-large;"><a href="http://txplore.tv/courses/arduino-sbs/lectures/276215?affcode=6107_xiz8dp9c" rel="nofollow" target="_blank">Stepper motors Part 1: Introduction</a></span><br />
 <blockquote class="tr_bq">
