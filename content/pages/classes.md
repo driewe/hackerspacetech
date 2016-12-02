@@ -15,28 +15,66 @@ Category: Classes
 <div class="panel panel-default panel-primary">
     <div class="panel-heading"><a href="/pages/getting-started-with-the-arduino.html" title="Click Title For Details"><h4>Getting Started with Arduino - beginner</h4></a></div>
     <div class="panel-body">
+        <b>Modules:</b>
         <ul>
-        <li>Learn about the <a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino ecosystem</a>, tools and protyping workflow, how to make an light blink, how to make a light fade on and off then it ends with a short introduct
-        ion to sensors and a section on how to measure light.</li>
+            <li><a href="http://bit.ly/2gW3RuT" rel="nofollow" target="_blank">The Arduino ecosystem</a></li>   
+            <li><a href="http://bit.ly/2gvPaBG" rel="nofollow" target="_blank">Tools and prototyping workflow</a></li> 
+            <li><a href="http://bit.ly/2gPo0q6" rel="nofollow" target="_blank">Let's make a light blink!</a></li> 
+            <li><a href="http://bit.ly/2gvV85v" rel="nofollow" target="_blank">Make the LED fade on and off</a></li> 
+        </ul>
+
+        <b>Parts Needed:</b>
+        <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino and breadboard</a></li>  
+            <li>LEDs</li>
+            <li>330 resistors</li>
+            <li>photoresistor</li>
         </ul>
     </div>
 </div>
 
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/arduino-working-with-sensors-p1.html" title="Click Title For Details"><h4>Working With Sensors - p1</h4></a></div>
+    <div class="panel-heading"><h4>Working With Sensors - p1</h4></div>
     <div class="panel-body">
+        <b>Modules:</b>
         <ul>
-        <li>In part 1 of working with sensors we cover the <a href="http://amzn.to/2guFaJ4" rel="nofollow" target="_blank">Temperature and Humidity sensor</a>, <a href="http://amzn.to/2gHXuvX" rel="nofollow" target="_blank">Infrared Motion Sensors</a> and <a href="http://amzn.to/2fT5zfC" rel="nofollow" target="_blank">Ultrasonic distance sensors</a>.</li>
+            <li><a href="http://bit.ly/2ghURR2" rel="nofollow" target="_blank">Temperature and humidity<h6>In this presentation you will learn how to measure temperature and humidity. To do this, we will use a sensor from the DHT family of temperature and humidity sensors. You will also learn about the dielectric property of certain materials, and of how to include an external software library to your Arduino sketch.</h6></a></li>   
+
+            <li><a href="http://bit.ly/2fUes8x" rel="nofollow" target="_blank">Barometric pressure sensors</a><h6>This presentation discusses barometric pressure and how you can measure it with the BPM085 sensor. You will also learn about the I2C communications interface that this sensor uses to communicate with the Arduino.</h6>
+
+            <h6>PLEASE NOTE: A new sensor, BMP180, has been release as a drop-in replacement of the BPM085. The new device is a drop-in replacement of the old, so you can use the exact same connections schematic and library as described in this presentation. Also, Adafruit has released a new version of the library, compatible with both BPM085 and BPM180 with new useful features; I will be creating a new presentation showing how to use the new library.</h6></li>  
+
+            <li><a href="http://bit.ly/2fPVfdg" rel="nofollow" target="_blank">Infrared motion sensors</a><h6>In this presentation, we will connect a passive infrared sensor to our Arduino, calibrate it, and turn an LED on every time motion is detected. We also discuss the different technologies used to detect motion.</h6></li>  
+
+            <li><a href="http://bit.ly/2gR0HcW" rel="nofollow" target="_blank">Ultrasonic distance sensor<h6>In this presentation you will learn about how to measure distance using an ultrasonic distance sensor. This is a fairly sophisticated sensor that carries out a quite involved function when it comes to the physics of its implementation, however, as you will see, its application is as simple as it can be. You will also learn how to use a more advanced function of the Arduino language, the pulseIn function, through which you can time external events.</h6></a></li> 
+        </ul>
+
+        <b>Parts Needed:</b>
+        <ul>
+            <li><a href="http://amzn.to/2guFaJ4" rel="nofollow" target="_blank">The DHT22 or DHT11 sensor.</a></li>     
+            <li><a href="http://amzn.to/2h3oDNa" rel="nofollow" target="_blank">The BPM085 barometric pressure sensor.</a></li>  
+            <li><a href="http://amzn.to/2gHXuvX" rel="nofollow" target="_blank">HC-SR501 passive infrared sensor.</a></li>   
+            <li><a href="http://amzn.to/2fT5zfC" rel="nofollow" target="_blank">HC-SR04 ultrasonic distance sensor.</a></li>  
         </ul>
     </div>
 </div>
   
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/arduino-working-with-sensors-p2.html" title="Click Title For Details"><h4>Working With Sensors - p2</h4></a></div>
+    <div class="panel-heading"><h4>Working With Sensors - p2</h4></div>
     <div class="panel-body">
+        <b>Modules:</b>
         <ul>
-        <li>In part 2 of working with sensors we cover <a href="http://amzn.to/2fOrzxb" rel="nofollow" target="_blank">Detecting Acceleration</a>,  <a href="http://amzn.to/2fOjBUL" rel="nofollow" target="_blank">Line sensing</a>, and <a href="http://amzn.to/2fSWeV4" rel="nofollow" target="_blank">tilt/impact sensors</a>.</li>
+            <li><a href="http://bit.ly/2fQmOD3" rel="nofollow" target="_blank">Detecting acceleration</a><h6>In this presentation, you will learn how to use a common 3-axis accelerometer, the ADXL335, to accurately measure the acceleration applied to an object. At the end of the presentation, you will be invited to create your first non-trivial circuit using this accelerometer.</h6></li>
+
+            <li><a href="http://bit.ly/2gipC8t" rel="nofollow" target="_blank">Line sensor (infrared)</a><h6>In this presentation, we look at the infrared line sensor, a sensor that can detect the reflection of infrared light that it emits of nearby objects. Sensors like this are used in toy robots, for detecting colour, tracking objects, even in measuring pulse in medical equipment.</h6></li>
+
+            <li><a href="http://bit.ly/2gPVSTQ" rel="nofollow" target="_blank">Tilt and impact</a><h6>In this presentation, you will learn how to use a simple sensor that can detect the shock of an impact or being upside down. Even though in an earlier presentation we learned about the accelerometer, a sensor that can give us a lot of details about impact and the forces applied to it from which we can derive information about orientation, sometimes our needs are simple enough no not warrant using something as sophisticated as that. A simple switch that engages depending on its orientation or if something hits it is enough in such cases.</h6></li>    
+        </ul>
+        <b>Parts Needed</b>
+        <ul>
+            <li>ADXL335 sensor.</li> 
+            <li>QRE1113 line sensor.</li>
         </ul>
     </div>
 </div>
