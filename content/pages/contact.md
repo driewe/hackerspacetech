@@ -1,7 +1,7 @@
 Title: Contact
 
-<br>
-
+<div class="jumbotron">
+<div class="container-fluid">
 <form name="htmlform" method="post" action="https://formspree.io/david.riewe@gmail.com">
 <table width="450px">
 </tr>
@@ -55,3 +55,4 @@ Title: Contact
 </tr>
 </table>
 </form>
+</div></div>
