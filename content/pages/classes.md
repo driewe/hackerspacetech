@@ -73,17 +73,37 @@ Category: Classes
         </ul>
         <b>Parts Needed</b>
         <ul>
-            <li>ADXL335 sensor.</li> 
-            <li>QRE1113 line sensor.</li>
+            <li><a href="http://amzn.to/2g30If4" rel="nofollow" target="_blank">ADXL335 sensor</a>.</li> 
+            <li><a href="http://amzn.to/2g2ZHUk" rel="nofollow" target="_blank">QRE1113 line sensor</a>.</li>
         </ul>
     </div>
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/interacting-with-arduino-p1.html" title="Click Title For Details"><h4>Interacting With Arduino - p1</h4></a></div>
+    <div class="panel-heading"><h4>Interacting With Arduino - p1</h4></div>
     <div class="panel-body">
+        <b>Modules:</b>
         <ul>
-        <li>In part one of Interacting With Arduino we will explore working with <a href"http://amzn.to/2fOmXXW" rel="nofollow" target="_blank">buttons</a>, <a href="http://amzn.to/2fT2kF2" rel="nofollow" target="_blank">potentiometers</a>, <a href="http://amzn.to/2guB4QZ" rel="nofollow" target="_blank">flex sensors</a>, <a href="http://amzn.to/2ggBQhK" rel="nofollow" target="_blank">membrane potentiometers</a> and making noise with a <a href="http://amzn.to/2fOvHgq" rel="nofollow" target="_blank">passive buzzer</a>.</li>
+
+            <li><a href="http://bit.ly/2gRTiKJ" rel="nofollow" target="_blank">Buttons</a><h6>In this class you will learn how to use a push button. You will assemble a circuit where pressing a button turns on an LED. You will also learn about the different kinds of buttons that you can use in your projects.</h6></li>
+            
+            <li><a href="http://bit.ly/2gQsj4k" rel="nofollow" target="_blank">Potentiometer</a><h6>In this class you will learn how to use a potentiometer.  You will learn how potentiometers work, and what Pulse Width Modulation is, avery useful feature in some of Arduino's digital pins (which we have used in an earlier lecture but did not explain).</h6></li>
+            
+            <li><a href="http://bit.ly/2gxbgEb" rel="nofollow" target="_blank">The flex sensor</a><h6>In this class you will learn how to use a flex sensor, a device for which the resistance changes when it is bent.</h6></li>
+            <li><a href="http://bit.ly/2gKScQv" rel="nofollow" target="_blank">Membrane potentiometer</a><h6>In this class you will learn how to use a membrane potentiometer, a device electricaly similar to a regular rotary potentiometer but where instead of rotating a knob in order to change the resistance of the middle pin, you can slide your finger over the sensor's surface.</h6></li> 
+            
+            <li><a href="http://bit.ly/2gQxhhN" rel="nofollow" target="_blank">Making noise with a passive buzzer</a><h6>Generating simple tones with this little buzzer is very easy. In this lecture I'll show you how.</li></h6>
+        </ul>
+        <b>Parts Needed:</b>
+        <ul>
+        <li>Parts</li>
+        <li>Mini push button.</li>
+        <li>Red LEDs.</li>
+        <li>Resistors.</li>
+        <li>A linear rotary potentiometer</li>
+        <li>A flex sensor, from Sparkfun</li>
+        <li>A membrane potentiometer</li>
+        <li>A passive buzzer</li>
         </ul>
     </div>
 </div>
