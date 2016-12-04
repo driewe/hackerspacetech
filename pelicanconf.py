@@ -44,6 +44,7 @@ USE_FOLDER_AS_CATEGORY = True
 PATH = 'content'
 
 THEME = "pelican-themes/pelican-bootstrap3"
+#THEME = "notemyidea"
 PYGMENTS_STYLE = 'solarizeddark'
 BOOTSTRAP_FLUID = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
@@ -52,13 +53,7 @@ TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = 'en'
 
-# Feed generation is usually not desired when developing
-#FEED_ALL_ATOM = None
-#CATEGORY_FEED_ATOM = None
-#TRANSLATION_FEED_ATOM = None
-#AUTHOR_FEED_ATOM = None
-#AUTHOR_FEED_RSS = None
-SHOW_ARTICLE_AUTHOR = True
+
 
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
@@ -94,8 +89,13 @@ SOCIAL = (('twitter', 'http://www.twitter.com/hackerspacetech'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+#RELATIVE_URLS = True
+# Feed generation is usually not desired when developing
 
+#TRANSLATION_FEED_ATOM = None
+#AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = 'feeds/%s.rss.xml'
+SHOW_ARTICLE_AUTHOR = True
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
@@ -103,5 +103,5 @@ DELETE_OUTPUT_DIRECTORY = False
 
 # Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
+DISQUS_SITENAME = "hackerspacetech"
 GOOGLE_ANALYTICS = "UA-47432237-2"

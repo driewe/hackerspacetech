@@ -35,7 +35,7 @@ Category: Classes
 
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><h4>Working With Sensors - p1</h4></div>
+    <div class="panel-heading"><h4>Working With Sensors - Part 1</h4></div>
     <div class="panel-body">
         <b>Modules:</b>
         <ul>
@@ -61,7 +61,7 @@ Category: Classes
 </div>
   
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><h4>Working With Sensors - p2</h4></div>
+    <div class="panel-heading"><h4>Working With Sensors - Part 2</h4></div>
     <div class="panel-body">
         <b>Modules:</b>
         <ul>
@@ -80,7 +80,7 @@ Category: Classes
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><h4>Interacting With Arduino - p1</h4></div>
+    <div class="panel-heading"><h4>Interacting With Arduino - Part 1</h4></div>
     <div class="panel-body">
         <b>Modules:</b>
         <ul>
@@ -96,24 +96,36 @@ Category: Classes
         </ul>
         <b>Parts Needed:</b>
         <ul>
-        <li>Parts</li>
-        <li>Mini push button.</li>
-        <li>Red LEDs.</li>
-        <li>Resistors.</li>
-        <li>A linear rotary potentiometer</li>
-        <li>A flex sensor, from Sparkfun</li>
-        <li>A membrane potentiometer</li>
-        <li>A passive buzzer</li>
+        <li><a href="http://amzn.to/2fT5sW6" rel="nofollow" target="_blank">Mini push button.</a></li>
+        <li><a href="http://amzn.to/2fWVWg0" rel="nofollow" target="_blank">Red LEDs.</a></li>
+        <li><a href="http://amzn.to/2gMUm1O" rel="nofollow" target="_blank">Resistors.</a></li>
+        <li>A linear <a href="http://amzn.to/2gSpGPy" rel="nofollow" target="_blank">rotary potentiometer</a></li>
+        <li>A <a href="http://amzn.to/2glEG5c" rel="nofollow" target="_blank">flex sensor</a></li>
+        <li>A <a href="http://amzn.to/2gSmT8W" rel="nofollow" target="_blank">membrane potentiometer</a></li>
+        <li>A <a href="http://amzn.to/2gSrDM0" rel="nofollow" target="_blank">passive buzzer</a></li>
         </ul>
     </div>
 </div>
 
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/interacting-with-arduino-p2.html" title="Click Title For Details"><h4>Interacting With Arduino - p2</h4></a></div>
+    <div class="panel-heading"><h4>Interacting With Arduino - Part 2</h4></div>
     <div class="panel-body">
+        <b>Modules:</b>
         <ul>
-        <li>In part two of Interacting With Arduino we will explore the <a href="http://amzn.to/2gOaCCD" rel="nofollow" target="_blank">matrix keypad</a>, how to connect it using a parallel interface and how to connect it with a single wire.</li>
+            <li><a href="http://bit.ly/2glMwvp" rel="nofollow" target="_blank">Keypad, Part 1: Introduction</a><h6>In this presentation, I will demonstrate how to connect a common 4x4 membrane keypad that contains numbers, letters “A”, “B”, “C”, and “D”, a “*” and a “#”. I will do it in two ways. First, I'll use the keypad library that comes with the Arduino IDE in a sketch that reads the keypad, while the keypad is connected in parallel. In demo 2 I will show you how to hack together a solution that allows a connection that uses a single signal pin.</h6></li>
+
+            <li><a href="http://bit.ly/2fX30cl" rel="nofollow" target="_blank">Keypad, Part 2: Parallel connection wiring</a><h6>In this presentation, I will demonstrate how to connect a common 4x4 membrane keypad that contains numbers, letters “A”, “B”, “C”, and “D”, a “*” and a “#”. I will do it in two ways. First, I'll use the keypad library that comes with the Arduino IDE in a sketch that reads the keypad, while the keypad is connected in parallel. In demo 2 I will show you how to hack together a solution that allows a connection that uses a single signal pin.</h6></li>
+
+            <li><a href="http://bit.ly/2h5EtXC" rel="nofollow" target="_blank">Keypad, Part 3: Parallel connection sketch</a><h6>This is Part 3 of 5 of the keypad presentation. Here I describe the sketch that works with the parallel wiring of the keypad. This configuration was demonstrated in Part 2.</h6></li>
+
+            <li><a href="http://bit.ly/2fWVVIK" rel="nofollow" target="_blank">Keypad, Part 4: Single wire connection</a><h6>This is Part 4 of 5 of the keypad presentation. Here I describe an alternative way to connect the keypad that only uses one signal wire. The single wire configuration concludes in Part 5. </h6></li>
+
+            <li><a href="http://bit.ly/2gZpIle" rel="nofollow" target="_blank">Keypad, Part 5: Single wire connection conclusion</a><h6>This is Part 5 of 5 of the keypad presentation. Here I conclude the discussion of the single wire connection configuration.</h6></li>
+        </ul>
+        <b>Parts Needed:</b>
+        <ul>
+            <li><a href="http://amzn.to/2gOaCCD" rel="nofollow" target="_blank">matrix keypad</a></li>
         </ul>
     </div>
 </div>
@@ -121,8 +133,17 @@ Category: Classes
 <div class="panel panel-default panel-primary">
     <div class="panel-heading"><a href="/pages/arduino-working-with-rotary-encoders.html" title="Click Title For Details"><h4>Working with Rotary Encoders</h4></a></div>
     <div class="panel-body">
+    <b>Modules:</b>
         <ul>
-        <li>This 3-part presentation looks into the conductive <a href="http://amzn.to/2fT3oZu" rel="nofollow" target="_blank">rotary encoder</a>, the most common type of rotary encoders.</li>
+            <li><a href="http://bit.ly/2gpwEYJ" rel="nofollow" target="_blank">Rotary Encoders Part 1: Background and Principle of Operation</a><h6>In this first part of the lecture, I discuss the various types and principal of operation of this device.</h6></li>
+            
+            <li><a href"http://bit.ly/2h87Icg" rel="nofollow" target="_blank">Rotary Encoders Part 2: A Simple Circuit demo</a><h6>In this second part of the lecture, I demonstrate a minimal circuit involving a rotary encoder that doesn't work very well due to the "bouncing" effect of the encoder's electrical conductive contacts.</h6></li>
+            
+            <li><a href="http://bit.ly/2gDw1Or" rel="nofollow" target="_blank">Rotary Encoders Part 3: Adding Debouncing</a><h6>In this third part of the lecture, I demonstrate an upgraded circuit where I add debouncing and an improved version of the sketch where I add simple software debouncing. These two additions improve the accuracy of the rotary encoder.</h6></li>
+        </ul>
+    <b>Parts Needed:</b>
+        <ul>
+            <li><a href="http://amzn.to/2fT3oZu" rel="nofollow" target="_blank">rotary encoder</a></li>
         </ul>
     </div>
 </div>
@@ -131,19 +152,36 @@ Category: Classes
 <div class="panel panel-default panel-primary">
     <div class="panel-heading"><a href="/pages/using-adafruits-finger-print-sensor.html" title="Click Title For Details"><h4>Using Adafruits Fingerprint Sensor</h4></a></div>
     <div class="panel-body">
+    <b>Modules:</b>
         <ul>
-        <li>In this presentation I demonstrate an easy-to-use fingerprint sensor. This sensor is internally a sophisticated device, that contains a 32-bit microprocessor dedicated to do digital signal processing of fingerprint images. A library developed by Adafruit makes this sensor very easy to use. Connect it to your Arduino using serial or software serial pins, and you can start enrolling and recognising fingerprints within minutes.</li>
-        <li>In the second part, I show you how to connect the device to the Arduino and enroll and recognize fingerprints using a couple of the included sketches. In the third part I show you a small demo application that involves an electric door lock. I use the fingerprint sensor to energise the coil in the door lock and grand or deny access to my lab (when eventually the lock is installed to my door).
-        </li>
+            <li><a href="http://bit.ly/2g0f250" rel="nofollow" target="_blank">Fingerprint sensor Part 1: About</a><h6>This sensor is internally a sophisticated device, that contains a 32-bit microprocessor dedicated to do digital signal processing of fingerprint images.</h6><h6>A library developed by Adafruit makes this sensor very easy to use. Connect it to your Arduino using serial or software serial pins, and you can start enrolling and recognising fingerprints within minutes.</h6><h6>In this first part of the lecture, I discuss the device and its features.</h6></li>
+            
+            <li><a href="http://bit.ly/2h2XLc8" rel="nofollow" target="_blank">Fingerprint sensor Part 2: Wiring, registering, recognizing</a><h6>In this second part, I show you how to connect the device to the Arduino and enroll and recognise fingerprints using a couple of the included sketches.</h6></li>
+            
+            <li><a href="http://bit.ly/2gVNQGH" rel="nofollow" target="_blank">Fingerprint sensor Part 3: Demo app with an electric lock</a><h6>In this third part I show you a small demo application that involves an electric door lock. I use the fingerprint sensor to energise the coil in the door lock and grand or deny access to my lab (when eventually the lock is installed to my door).</h6></li>
+        </ul>
+    <b>Parts Needed:</b>
+        <ul>
+            <li><a href="http://amzn.to/2gVP33f" rel="nofollow" target="_blank">Adafruit Fingerprint Sensor</a></li>
         </ul>
     </div>
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/using-lcd-screens.html" title="Click Title For Details"><h4>Using LCD Screens</h4></a></div>
+    <div class="panel-heading"><a href="/pages/using-lcd-screens.html" title="Click Title For Details"><h4>Using LCD Screens including I2C</h4></a></div>
     <div class="panel-body">
+        <b>Modules:</b>
         <ul>
-        <li>Learn how to connect <a href="https://www.amazon.com/gp/product/B00EDMMTGY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00EDMMTGY&linkCode=as2&tag=hackerspacetech-20&linkId=3cffc9de16c02e6e4decc86331fc2c62" target="_blank">LCD character screen</a>, take sensor readings and display them.  Next we look into connecting the <a href="http://amzn.to/2gUtP1S" rel="nofollow" target="_blank">LCD via I2C</a>. </li>
+            <li><a href="http://bit.ly/2gVLCcO" rel="nofollow" target="_blank">LCD character screen, Part 1</a><h6> In part 1, you will learn how to wire up the screen and display a message on it.</h6></li>
+            <li><a href="http://bit.ly/2h83MIx" rel="nofollow" target="_blank">LCD character screen, Part 2</a><h6>In this lecture, we expand the project from part 1 by adding a DHT22 sensor and displaying its readings to the screen.</h6></li>
+            <li><a href="http://bit.ly/2gVRxyd" rel="nofollow" target="_blank">Single data wire LCD and I2C, Part 1</a><h6>In the LCD Lecture, you learned how to display text in a LCD screen. Although this was a simple way to show useful information to the user, the sheer number of wires required to make the LCD screen work makes this solution far from elegant.</h6><h6>In this lecture, I will show you a much improved solution to the same problem, one that involves a single data wire (plus power).</h6><h6>To achieve this reduction in total number of wires we have to switch the type of interface we use to connect the screen to the Arduino. Natively, the screen uses a parallel interface, where each of the 8 bits that make up a character encoding uses up a wire. In the previous class we used a 4-bit parallel mode instead of the full 8-bits in order to save 4 wires. Still, even 4 wires are too many for transferring data. We also needed wires for power, and for the screen backlit.</h6><h6>To improve the design, we'll use an adaptor that allows us to connect the parallel LCD screen to the Arduino using the I2C serial bus.</h6><h6>The adapter I'll use in the demos is the <a href="http://amzn.to/2h8e23u" rel="nofollow" target="_blank">1602LCD Display I2C board</a></h6></li>
+            <li><a href="http://bit.ly/2g0iKeX" rel="nofollow" target="_blank">Single data wire LCD and I2C, Part 2</a><h6>In this Part 2, you will learn how to connect a second I2C device to the circuit from Demo 1. The second device is a real-time clock.</h6></li>
+        </ul>
+        
+        <b>Parts Needed:</b>
+        <ul>
+        <li><a href="http://amzn.to/2gpAhhi" target="_blank">LCD character screen</a></li>
+        <li><a href="http://amzn.to/2h8e23u" rel="nofollow" target="_blank">1602LCD Display I2C board</a></li>
         </ul>
     </div>
 </div>
