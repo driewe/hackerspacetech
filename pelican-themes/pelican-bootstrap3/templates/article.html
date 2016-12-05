@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+
 {% block title %}{{ article.title|striptags }} - {{ SITENAME }}{% endblock %}
 {% block html_lang %}{{ article.lang }}{% endblock %}
 {% block meta %}
@@ -14,6 +15,7 @@
         <meta name="description" content="{{ article.summary|striptags|escape }}" />
     {% endif %}
 {% endblock %}
+
 {% block opengraph %}
     {% if USE_OPEN_GRAPH %}
         {% if OPEN_GRAPH_FB_APP_ID %}
@@ -85,7 +87,17 @@
                         {% include "includes/article_info.html" %}
                     </div>
                 </div>
+                
                 {{ article.content }}
+                <!-- Grab Gravatar Data
+                    {% if article.author_gravatar %}
+                        <img class="avatar" alt="{{ article.author }}" src="{{ article.author_gravatar }}">
+                    {% endif %}
+                <h2 class="article-info">{{ article.author }}</h2>
+                <small class="about-author">{{ article.about_author }}</small>
+                <h5>Published</h5>
+                <p>{{ article.locale_date }}</p>  -->
+                <!--- End Gravatar Data -->
             </div>
             <!-- /.entry-content -->
             {% include 'includes/related-posts.html' %}

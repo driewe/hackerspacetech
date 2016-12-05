@@ -1,4 +1,4 @@
-Title: Hacker Stars
+Title: Contributors At HackerSpace Tech
 
 <div class="jumbotron">
 <div class="container-fluid">

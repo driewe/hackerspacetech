@@ -2,7 +2,8 @@ Title: Virtual Color Mixer
 Date: 2016-11-12
 Category: Blog
 Tags: Arduino, Programming, Tutorials, Processing
-Author: David Riew
+Author: David Riewe
+Email: david.riewe@gmail.com
 
 <style>
 h6 {

@@ -3,7 +3,9 @@
 from __future__ import unicode_literals
 
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['sitemap', 'related_posts', 'tag_cloud']
+PLUGINS = ['sitemap', 'related_posts', 'tag_cloud', 'gravatar']
+
+
 
 RELATED_POSTS_MAX = 10
 DISPLAY_TAGS_ON_SIDEBAR = False
@@ -24,7 +26,8 @@ SITEMAP = {
 }
 
 AUTHOR = 'Hacker Space Tech'
-ABOUT_ME = 'We a motivated group of hardware hackers who like learning about technology and building cool things.  To learn more about the display above <a href="http://hackerspacetech.com/building-a-16x32-neopixel-display.html">Click Here</a>.  To learn more about the Hacker Stars at Hacker Space Tech <a href="/pages/hacker-stars.html">Click Here</a><br><br>'
+AUTHOR_EMAIL = 'david@davidriewe.com'
+ABOUT_ME = 'We a motivated group of hardware hackers who like learning about technology and building cool things.  To learn more about the display above <a href="http://hackerspacetech.com/building-a-16x32-neopixel-display.html">Click Here</a>.  To learn more about the Contributors at Hacker Space Tech <a href="/pages/hacker-stars.html">Click Here</a><br><br>'
 #ABOUT_ME = 'Electronics Tech with over 20 years of experience in the computer industry.  I enjoy building micro-controlled projects, programming and web development.  <a href="/pages/bio.html"> read my full bio here</a>
 #AVATAR = '/images/avatar2.jpg'
 AVATAR = '/images/animatedlogocropped.gif'
@@ -44,7 +47,7 @@ USE_FOLDER_AS_CATEGORY = True
 PATH = 'content'
 
 THEME = "pelican-themes/pelican-bootstrap3"
-#THEME = "notemyidea"
+#THEME = "pelican-themes/syte"
 PYGMENTS_STYLE = 'solarizeddark'
 BOOTSTRAP_FLUID = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
@@ -63,7 +66,7 @@ MENUITEMS = (
     ('Meetups', '/pages/meetups.html'),
     ('Classes', '/pages/classes.html'),
     ('Arduino Crash Course','http://freecourse.hackerspacetech.com'),
-    ('Hacker Stars', '/pages/hacker-stars.html'),
+    ('Contributors', '/pages/hacker-stars.html'),
     ('Tutorials', '/pages/tutorials.html'),
     ('Contact', '/pages/contact.html')
 )
@@ -89,7 +92,7 @@ SOCIAL = (('twitter', 'http://www.twitter.com/hackerspacetech'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 # Feed generation is usually not desired when developing
 
 #TRANSLATION_FEED_ATOM = None
