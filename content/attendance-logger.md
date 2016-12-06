@@ -3,8 +3,7 @@ Date: 2016-11-14
 Category: Blog
 Tags: Arduino, Projects, RTC, RFID
 Author: Blaž Pongrac
-
-<div class="jumbotron">
+email: blaz@pongrac.com
 
 <div class="container-fluid">
 <div row>

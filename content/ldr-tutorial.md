@@ -3,9 +3,10 @@ Date: 2016-11-20
 Category: Blog
 Tags: Arduino, Tutorials, LDR, light sensor
 Author: Blaž Pongrac
+email: blaz@pongrac.com
 
-<div class="jumbotron">
 
+<div class="container-fluid">
 <div class="row">
     <div class="col-sm-4">
     <p><img class="img-responsive" src="/images/ldr-tutorial/image_1.jpg"></p>

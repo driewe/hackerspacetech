@@ -3,6 +3,7 @@ Date: 2016-11-29
 Category: Blog
 Tags: Arduino, Tutorials, Eagle, PCB
 Author: Scott Reesor
+Email: Scott@reesor.com
 
 <style>
 h6 {
@@ -10,9 +11,9 @@ h6 {
 }
  
 </style>
-<div class="jumbotron">
 
 <div class="container-fluid">
+
 <row>
     <div class="col-sm-5">
         <a href="/images/relay-pcb/image_1.jpg"><img src="/images/relay-pcb/image_1.jpg" title="Click to enlarge" class="img-rounded img-responsive img-thumbnail"></a>
@@ -65,6 +66,4 @@ h6 {
     </div>
 
 </row>
-</div>
-
-</div>
+<div class="container-fluid">

@@ -10,7 +10,7 @@ h6 {
 }
 </style>
 
- <div class="jumbotron">
+
 <h5>Sometimes you want everything in the program to stop while a given condition is true. You can do this using a [while loop](http://www.arduino.cc/en/Reference/While). This example shows how to use a while loop to [calibrate](http://www.arduino.cc/en/Tutorial/Calibration) the value of an analog sensor.</h5>
 
 <h5>In the main loop, the sketch below reads the value of a photoresistor on analog pin 0 and uses it to fade an LED on pin 9. But while a button attached to digital pin 2 is pressed, the program runs a method called calibrate() that looks for the highest and lowest values of the analog sensor. When you release the button, the sketch continues with the main loop.</h5>
@@ -138,4 +138,3 @@ void calibrate()
     }
 }
 ```
-</div>

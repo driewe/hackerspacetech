@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['sitemap', 'related_posts', 'tag_cloud', 'gravatar']
+PLUGINS = ['sitemap', 'related_posts', 'tag_cloud', 'gravatar', 'footer_insert']
 
 
 
@@ -47,7 +47,7 @@ USE_FOLDER_AS_CATEGORY = True
 PATH = 'content'
 
 THEME = "pelican-themes/pelican-bootstrap3"
-#THEME = "pelican-themes/syte"
+#THEME = "pelican-themes/pure"
 PYGMENTS_STYLE = 'solarizeddark'
 BOOTSTRAP_FLUID = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True

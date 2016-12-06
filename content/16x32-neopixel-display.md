@@ -10,11 +10,10 @@ h6 {
 }
 </style>
 
- <div class="jumbotron">
 
 <p><h5>Earlier this year while attending a <a href="http://www.fabnow-conference.com" target="_blank">FabNow Conferance</a> in Ft. Worth I came across a few exibits with <a href="/neopixel-16-ring-fun.html">Neo Pixel Rings.  I was fascinated with the color levels and the fact they could be controlled with a single wire!  While experimenting with the <a href="/neopixel-16-ring-fun.html">Neo Pixel Rings</a> I learned about Adafruits <a href="http://amzn.to/2fVoeuE" target="_blank">NeoPixel 64 LED 8x8 Matrix</a>, the FadeCandy controller then was mesmerized by some of the demonstrations at <a href="http://www.misc.name/fadecandy" target="_blank">Micah Elizabeth Scotts website</a> and the <a href="https://learn.adafruit.com/led-art-with-fadecandy" target="_blank">LED Art with Fadecandy</a> tutorial on Adafruits website.</h5></p>
 
-<p><h5>I was hooked.  I knew I wanted to build some sort of display using the <a href="http://amzn.to/2fVoeuE" target="_blank">8x8 neopixel panels</a> and control them using the FadeCandy!  Using the <a href="https://learn.adafruit.com/led-art-with-fadecandy" target="_blank">LED Art with Fadecandy</a>[]() tutorial on Adafruits website as I guide I thought I would start off with four of the <a href="http://amzn.to/2fVoeuE" target="_blank">8x8 neopixel panels</a> but then decided to go with eight so I either build two separate 2x2 panel displays (16x16) or one larger 16x32 display.</h5></p>
+<p><h5>I was hooked.  I knew I wanted to build some sort of display using the <a href="http://amzn.to/2fVoeuE" target="_blank">8x8 neopixel panels</a> and control them using the FadeCandy!  Using the <a href="https://learn.adafruit.com/led-art-with-fadecandy" target="_blank">LED Art with Fadecandy</a> tutorial on Adafruits website as I guide I thought I would start off with four of the <a href="http://amzn.to/2fVoeuE" target="_blank">8x8 neopixel panels</a> but then decided to go with eight so I either build two separate 2x2 panel displays (16x16) or one larger 16x32 display.</h5></p>
 
 <h4>Parts List</h4>
 <ul>
@@ -88,4 +87,3 @@ Prior to starting the build I had laid all eight panels out on a xerox machine a
 
 <p><h5>For now I would encourage you to take a look at the <a href="https://github.com/scanlime/fadecandy" target="_blank">Fadecandy Repo on Github</a></h5></p>
 
-</div>

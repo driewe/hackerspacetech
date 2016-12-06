@@ -12,8 +12,8 @@ h6 {
  
 </style>
 
- <div class="jumbotron">
 
+<div class="container-fluid">
 <p><h5>This example demonstrates how to send multiple values from the Arduino board to the computer. The readings from three potentiometers are used to set the red, green, and blue components of the background color of a Processing sketch.</h5></p>
 
 <h4>Hardware Required</h4>
