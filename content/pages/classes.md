@@ -52,6 +52,7 @@ Category: Classes
 
         <b>Parts Needed:</b>
         <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
             <li><a href="http://amzn.to/2guFaJ4" rel="nofollow" target="_blank">The DHT22 or DHT11 sensor.</a></li>     
             <li><a href="http://amzn.to/2h3oDNa" rel="nofollow" target="_blank">The BPM085 barometric pressure sensor.</a></li>  
             <li><a href="http://amzn.to/2gHXuvX" rel="nofollow" target="_blank">HC-SR501 passive infrared sensor.</a></li>   
@@ -73,6 +74,7 @@ Category: Classes
         </ul>
         <b>Parts Needed</b>
         <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
             <li><a href="http://amzn.to/2g30If4" rel="nofollow" target="_blank">ADXL335 sensor</a>.</li> 
             <li><a href="http://amzn.to/2g2ZHUk" rel="nofollow" target="_blank">QRE1113 line sensor</a>.</li>
         </ul>
@@ -96,6 +98,7 @@ Category: Classes
         </ul>
         <b>Parts Needed:</b>
         <ul>
+        <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
         <li><a href="http://amzn.to/2fT5sW6" rel="nofollow" target="_blank">Mini push button.</a></li>
         <li><a href="http://amzn.to/2fWVWg0" rel="nofollow" target="_blank">Red LEDs.</a></li>
         <li><a href="http://amzn.to/2gMUm1O" rel="nofollow" target="_blank">Resistors.</a></li>
@@ -125,6 +128,7 @@ Category: Classes
         </ul>
         <b>Parts Needed:</b>
         <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
             <li><a href="http://amzn.to/2gOaCCD" rel="nofollow" target="_blank">matrix keypad</a></li>
         </ul>
     </div>
@@ -143,6 +147,7 @@ Category: Classes
         </ul>
     <b>Parts Needed:</b>
         <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
             <li><a href="http://amzn.to/2fT3oZu" rel="nofollow" target="_blank">rotary encoder</a></li>
         </ul>
     </div>
@@ -162,6 +167,7 @@ Category: Classes
         </ul>
     <b>Parts Needed:</b>
         <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
             <li><a href="http://amzn.to/2gVP33f" rel="nofollow" target="_blank">Adafruit Fingerprint Sensor</a></li>
         </ul>
     </div>
@@ -180,6 +186,7 @@ Category: Classes
         
         <b>Parts Needed:</b>
         <ul>
+        <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
         <li><a href="http://amzn.to/2gpAhhi" target="_blank">LCD character screen</a></li>
         <li><a href="http://amzn.to/2h8e23u" rel="nofollow" target="_blank">1602LCD Display I2C board</a></li>
         </ul>
@@ -189,35 +196,92 @@ Category: Classes
 <div class="panel panel-default panel-primary">
     <div class="panel-heading"><a href="/pages/working-with-lcd-tft-screens.html" title="Click For Details"><h4>Working With LCD TFT screens</h4></a></div>
     <div class="panel-body">
-        <ul><li>Learn how to add <a href="http://amzn.to/2gPTR7H" rel="nofollow" target="_blank">TFT LCD screen</a> to your Arduino project in order to produce colourful text and shapes. </li></ul>
+        <b>Modules:</b>
+        <ul><li><a href="http://bit.ly/2gC6O3S" rel="nofollow" target="_blank">LCD TFT Screens</a></li><h6>In this lecture you learn how to add a TFT LCD screen to your Arduino project in order to produce colourful text and shapes. The lecture contains two demos in which you learn one of the common TFT LCD shields. In the first one, you learn how to use the screen itself, while in the second how to use the 5-button joystick that is integrated into the screen shield.</h6></ul>
+        <b>Parts Needed:</b>
+        <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
+            <li><a href="http://amzn.to/2h2shnv" rel="nofollow" target="_blank">LCD TFT Shield</a></li>
+        </ul>
     </div>
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/using-seven-segment-displays.html" title="Click For Details"><h4>Using 7 Segment Displays</h4></a></div>
+    <div class="panel-heading"><h4>Using 7 Segment Displays</h4></div>
     <div class="panel-body">
-        <ul><li>Learn to connect <a href="https://www.amazon.com/gp/product/B004S95VJE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B004S95VJE&linkCode=as2&tag=hackerspacetech-20&linkId=17a41874f21861590ff31797723462f8" target="_blank">7 segment displays</a> and control via <a href="http://amzn.to/2guvnTj" rel="nofollow" target="_blank">shift registers</a> so that only 3 Arduino pins are required.</li></ul>
+        <b>Modules:</b>
+        <ul>
+            <li><a href="http://bit.ly/2h5XaaK" rel="nofollow" target="_blank">Seven Segment LED Displays, Part 1: Intro and assembly</a><h6>In this lecture, we will build on our knowledge from the Lecture on the Shift register. In that lecture, you learned how to use a shift register in order to control multiple LEDs using only three wires: one for data, one for clock, and one for the latch. Because there are so many SSD out there, I will assume that you don't have your particular display's datasheet and have no idea which pin controls the pins. I will describe the process of figuring out the correct wiring and then constructing the numerical symbols in the sketch.</h6><h6>Please consider watching the Lectures on Shift Registers if you are not familiar with this component as it is central to driving the seven-segment display. The lectures on shift registers is in the section titled "Integrated Circuits Peripherals"</h6></li>
+            <li><a href="http://bit.ly/2hgxX0t" rel="nofollow" target="_blank">Seven Segment LED Displays, Part 2: Sketch</a></li>
+        </ul>
+        
+        <b>Parts Needed:</b>
+        <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
+            <li><a href="http://amzn.to/2hio1PT" rel="nofollow" target="_blank">7 segment displays</a></li>
+            <li><a href="http://amzn.to/2hihZim" rel="nofollow" target="_blank">74HC595 Shift Registers</a></li>
+        </ul>
     </div>
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/control-an-8x8-led-matrix-display-with-the-max7219-controller.html" title="Click For Details"><h4>Control an 8x8 LED matrix display with the MAX7219 controller</h4></a></div>
+    <div class="panel-heading"><h4>Control an 8x8 LED matrix display with the MAX7219 controller</h4></div>
     <div class="panel-body">
-        <ul><li>Learn to control <a href="http://amzn.to/2gOc73F" rel="nofollow" target="_blank">8x8 LED matrix's</a> with the <a href="http://amzn.to/2h2g19z" rel="nofollow" target="_blank">MAX7219</a>.</li></ul>
+        <b>Modules:</b>
+        <ul>
+            <li><a href="http://bit.ly/2h2DaFD" rel="nofollow" target="_blank">Control an 8x8 LED matrix display with the MAX7219 controller</a><h6>In this lecture, you will learn how to use the MAX7219 LED controller IC with a single 8x8 matrix LED display. You can combine these two components together to create large LED matrix displays, but in this lecture we'll keep it simple. In a separate lecture, we'll expand to multi-display setups.</h6></li>
+            
+            <li><a href="http://bit.ly/2h2HNiY" rel="nofollow" target="_blank">Visualise ADXL335 accelerometer data on an 8x8 LED matrix display</a><h6>In this presentation I will show you how to graph data from an ADXL335 on an 8x8 LED matrix display that we conected in the previous presentation.</h6></li>
+            
+            <li><a href="http://bit.ly/2hiwLpi" rel="nofollow" target="_blank">Control multiple 8x8 LED matrix displays</a><h6>In this presentation, you will learn how to use the MAX7219 LED controller IC with four 8x8 matrix LED display.</h6></li>
+        </ul>
+        
+        <b>Parts Needed:</b>
+        <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
+            <li><a href="http://amzn.to/2gOc73F" rel="nofollow" target="_blank">8x8 LED matrix</a></li>
+            <li><a href="http://amzn.to/2h2g19z" rel="nofollow" target="_blank">MAX7219</a></li>
+            <li><a href="http://amzn.to/2himBVN" rel="nofollow" target="_blank">ADXL335 accelerometer </a></li>
+        </ul>
     </div>
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/working-with-direct-current-motors.html" title="Click For Details"><h4>Working With Direct Current Motors</h4></a></div>
+    <div class="panel-heading"><h4>Working With Direct Current Motors</h4></div>
     <div class="panel-body">
-        <ul><li>In this presentation we will learn to use a <a href="http://amzn.to/2gHSQOH" rel="nofollow" target="">motor break out board</a>, make the motors spin it both directions, control their speed and finally use an ultrasonic sensor to get the motors to spin faster or slower depending on the distance between the sensor and an object.</li></ul>
+        <b>Modules:</b>
+            <ul>
+                <li><a href="http://bit.ly/2gaoliN" rel="nofollow" target="_blank">Direct Current Motors Part 1</a><h6>In this presentation you will learn how to use a DC motor through a series of demos. All involve two geared DC motors (why use just one when we can use two?) and a motor break-out circuit. I'll explain what these are in a minute. Here's what we are going to build in this presentation:</h6></li>
+                
+                <li><a href="http://bit.ly/2h612bY" rel="nofollow" target="_blank">Direct current motors, Part 2</a><h6>In this part, you will learn about how to control the speed and direction of rotation of a motor using a potentiometer.</h6></li>
+                
+                <li><a href="http://bit.ly/2gasHqa" rel="nofollow" target="_blank">Direct current motors, Part 3</a><h6>In this part, you will learn about how to control the speed and direction of rotation of a motor using an ultrasonic distance sensor. After that, you could go ahead and design your fist autonomous driving vehicle.</h6></li>
+            </ul>
+            
+        <b>Parts Needed</b>
+        <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
+            <li><a href="http://amzn.to/2gHSQOH" rel="nofollow" target="">Motor break out board</a></li>
+            <li><a href="http://amzn.to/2gaBQ1K" rel="nofollow" target="_blank">Geared DC Motor</a></li>
+        </ul>
     </div>
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/arduino-using-servo-motors.html" title="Click For Details"><h4>Using Servo Motors</h4></a></div>
+    <div class="panel-heading"><h4>Using Servo Motors</h4></div>
     <div class="panel-body">
-        <ul><li>In these presentations, we will learn about how to use a <a href="http://amzn.to/2fOlqAZ" rel="nofollow" target="_blank">servo motor</a>. We will use both the build-in servo motor library that comes standard with the Arduino IDE, and a third party library that adds a bunch of very useful features.</li></ul>
+        <b>Modules:</b>
+        <ul>
+            <li><a href="http://bit.ly/2gaEFjm" rel="nofollow" target="_blank">Servo motors Part 1</a><h6>In this presentation, we will learn about how to use a servo motor. We will use both the build-in servo motor library that comes standard with the Arduino IDE, and a third party library that adds a bunch of very useful features.</h6></li>
+            
+            <li><a href="http://bit.ly/2gC9Xkr" rel="nofollow" target="_blank">Servo motors, Part 2</a><h6>In part 2 you will learn how to use a third party library that adds a bunch of very useful features on top of what is available through the build-in servo library</h6></li>
+        </ul>
+        
+        <b>Parts Needed:</b>
+        <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
+            <li><a href="http://amzn.to/2fOlqAZ" rel="nofollow" target="_blank">Servo motor</a></li>
+        </ul>
     </div>
 </div>
 

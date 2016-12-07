@@ -1,3 +1,9 @@
+<style>
+.vertical_center {
+    display: flex;
+    align-items: center;
+}
+</style>
 {% extends "base.html" %}
 
 {% block title %}{{ article.title|striptags }} - {{ SITENAME }}{% endblock %}
@@ -96,21 +102,17 @@
             </div>
                
             <div class="well">
-            <div class="row">
-                <div class="col-sm-1">
                 <a href="{{ SITEURL }}/{{ article.author.url }}" title="See posts by {{ article.author}}">
                     {%if article.author_gravatar %}
-                        <img class="avatar" alt="{{ article.author }}" src="{{ article.author_gravatar}}">
+                        <img class="avatar" style="float:left; margin: 20px 10px 10px 0px;" alt="{{ article.author }}" src="{{ article.author_gravatar}}">
                     {% endif %} 
                 </a>
-                </div>
-                    <div class="col-sm-2">
-                    <h3 class="article-info">{{ article.author }}</h3>
+                <h3 class="article-info">{{ article.author }}</h3>
                     <small class="about-author">{{ article.about_author }}</small>
                     <h5>Published</h5>
-                    <p>{{ article.locale_date }}</p> 
-                </div>
-            </div>
+                    <p>{{ article.locale_date }}</p>
+                
+
                 
                 
             </div>
