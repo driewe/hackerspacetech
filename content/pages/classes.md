@@ -13,7 +13,7 @@ Category: Classes
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/getting-started-with-the-arduino.html" title="Click Title For Details"><h4>Getting Started with Arduino - beginner</h4></a></div>
+    <div class="panel-heading"><h4>Getting Started with Arduino - beginner</h4></div>
     <div class="panel-body">
         <b>Modules:</b>
         <ul>
@@ -94,7 +94,7 @@ Category: Classes
             <li><a href="http://bit.ly/2gxbgEb" rel="nofollow" target="_blank">The flex sensor</a><h6>In this class you will learn how to use a flex sensor, a device for which the resistance changes when it is bent.</h6></li>
             <li><a href="http://bit.ly/2gKScQv" rel="nofollow" target="_blank">Membrane potentiometer</a><h6>In this class you will learn how to use a membrane potentiometer, a device electricaly similar to a regular rotary potentiometer but where instead of rotating a knob in order to change the resistance of the middle pin, you can slide your finger over the sensor's surface.</h6></li> 
             
-            <li><a href="http://bit.ly/2gQxhhN" rel="nofollow" target="_blank">Making noise with a passive buzzer</a><h6>Generating simple tones with this little buzzer is very easy. In this lecture I'll show you how.</li></h6>
+            <li><a href="http://bit.ly/2gQxhhN" rel="nofollow" target="_blank">Making noise with a passive buzzer</a><h6>Generating simple tones with this little buzzer is very easy. In this lecture you'll learn how.</li></h6>
         </ul>
         <b>Parts Needed:</b>
         <ul>
@@ -116,9 +116,9 @@ Category: Classes
     <div class="panel-body">
         <b>Modules:</b>
         <ul>
-            <li><a href="http://bit.ly/2glMwvp" rel="nofollow" target="_blank">Keypad, Part 1: Introduction</a><h6>In this presentation, I will demonstrate how to connect a common 4x4 membrane keypad that contains numbers, letters “A”, “B”, “C”, and “D”, a “*” and a “#”. I will do it in two ways. First, I'll use the keypad library that comes with the Arduino IDE in a sketch that reads the keypad, while the keypad is connected in parallel. In demo 2 I will show you how to hack together a solution that allows a connection that uses a single signal pin.</h6></li>
+            <li><a href="http://bit.ly/2glMwvp" rel="nofollow" target="_blank">Keypad, Part 1: Introduction</a><h6>In this presentation, I will demonstrate how to connect a common 4x4 membrane keypad that contains numbers, letters “A”, “B”, “C”, and “D”, a “*” and a “#”. I will do it in two ways. First, I'll use the keypad library that comes with the Arduino IDE in a sketch that reads the keypad, while the keypad is connected in parallel. In demo 2 you learn how to hack together a solution that allows a connection that uses a single signal pin.</h6></li>
 
-            <li><a href="http://bit.ly/2fX30cl" rel="nofollow" target="_blank">Keypad, Part 2: Parallel connection wiring</a><h6>In this presentation, I will demonstrate how to connect a common 4x4 membrane keypad that contains numbers, letters “A”, “B”, “C”, and “D”, a “*” and a “#”. I will do it in two ways. First, I'll use the keypad library that comes with the Arduino IDE in a sketch that reads the keypad, while the keypad is connected in parallel. In demo 2 I will show you how to hack together a solution that allows a connection that uses a single signal pin.</h6></li>
+            <li><a href="http://bit.ly/2fX30cl" rel="nofollow" target="_blank">Keypad, Part 2: Parallel connection wiring</a><h6>In this presentation, I will demonstrate how to connect a common 4x4 membrane keypad that contains numbers, letters “A”, “B”, “C”, and “D”, a “*” and a “#”. I will do it in two ways. First, I'll use the keypad library that comes with the Arduino IDE in a sketch that reads the keypad, while the keypad is connected in parallel. In demo 2 you will learn how to hack together a solution that allows a connection that uses a single signal pin.</h6></li>
 
             <li><a href="http://bit.ly/2h5EtXC" rel="nofollow" target="_blank">Keypad, Part 3: Parallel connection sketch</a><h6>This is Part 3 of 5 of the keypad presentation. Here I describe the sketch that works with the parallel wiring of the keypad. This configuration was demonstrated in Part 2.</h6></li>
 
@@ -135,7 +135,7 @@ Category: Classes
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/arduino-working-with-rotary-encoders.html" title="Click Title For Details"><h4>Working with Rotary Encoders</h4></a></div>
+    <div class="panel-heading"><h4>Working with Rotary Encoders</h4></div>
     <div class="panel-body">
     <b>Modules:</b>
         <ul>
@@ -155,15 +155,15 @@ Category: Classes
 
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/using-adafruits-finger-print-sensor.html" title="Click Title For Details"><h4>Using Adafruits Fingerprint Sensor</h4></a></div>
+    <div class="panel-heading"><h4>Using Adafruits Fingerprint Sensor</h4></div>
     <div class="panel-body">
     <b>Modules:</b>
         <ul>
             <li><a href="http://bit.ly/2g0f250" rel="nofollow" target="_blank">Fingerprint sensor Part 1: About</a><h6>This sensor is internally a sophisticated device, that contains a 32-bit microprocessor dedicated to do digital signal processing of fingerprint images.</h6><h6>A library developed by Adafruit makes this sensor very easy to use. Connect it to your Arduino using serial or software serial pins, and you can start enrolling and recognising fingerprints within minutes.</h6><h6>In this first part of the lecture, I discuss the device and its features.</h6></li>
             
-            <li><a href="http://bit.ly/2h2XLc8" rel="nofollow" target="_blank">Fingerprint sensor Part 2: Wiring, registering, recognizing</a><h6>In this second part, I show you how to connect the device to the Arduino and enroll and recognise fingerprints using a couple of the included sketches.</h6></li>
+            <li><a href="http://bit.ly/2h2XLc8" rel="nofollow" target="_blank">Fingerprint sensor Part 2: Wiring, registering, recognizing</a><h6>In this second part, you will learn how to connect the device to the Arduino and enroll and recognise fingerprints using a couple of the included sketches.</h6></li>
             
-            <li><a href="http://bit.ly/2gVNQGH" rel="nofollow" target="_blank">Fingerprint sensor Part 3: Demo app with an electric lock</a><h6>In this third part I show you a small demo application that involves an electric door lock. I use the fingerprint sensor to energise the coil in the door lock and grand or deny access to my lab (when eventually the lock is installed to my door).</h6></li>
+            <li><a href="http://bit.ly/2gVNQGH" rel="nofollow" target="_blank">Fingerprint sensor Part 3: Demo app with an electric lock</a><h6>In this third part you learn a small demo application that involves an electric door lock. I use the fingerprint sensor to energise the coil in the door lock and grand or deny access to my lab (when eventually the lock is installed to my door).</h6></li>
         </ul>
     <b>Parts Needed:</b>
         <ul>
@@ -174,13 +174,13 @@ Category: Classes
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/using-lcd-screens.html" title="Click Title For Details"><h4>Using LCD Screens including I2C</h4></a></div>
+    <div class="panel-heading"><h4>Using LCD Screens including I2C</h4></div>
     <div class="panel-body">
         <b>Modules:</b>
         <ul>
             <li><a href="http://bit.ly/2gVLCcO" rel="nofollow" target="_blank">LCD character screen, Part 1</a><h6> In part 1, you will learn how to wire up the screen and display a message on it.</h6></li>
             <li><a href="http://bit.ly/2h83MIx" rel="nofollow" target="_blank">LCD character screen, Part 2</a><h6>In this lecture, we expand the project from part 1 by adding a DHT22 sensor and displaying its readings to the screen.</h6></li>
-            <li><a href="http://bit.ly/2gVRxyd" rel="nofollow" target="_blank">Single data wire LCD and I2C, Part 1</a><h6>In the LCD Lecture, you learned how to display text in a LCD screen. Although this was a simple way to show useful information to the user, the sheer number of wires required to make the LCD screen work makes this solution far from elegant.</h6><h6>In this lecture, I will show you a much improved solution to the same problem, one that involves a single data wire (plus power).</h6><h6>To achieve this reduction in total number of wires we have to switch the type of interface we use to connect the screen to the Arduino. Natively, the screen uses a parallel interface, where each of the 8 bits that make up a character encoding uses up a wire. In the previous class we used a 4-bit parallel mode instead of the full 8-bits in order to save 4 wires. Still, even 4 wires are too many for transferring data. We also needed wires for power, and for the screen backlit.</h6><h6>To improve the design, we'll use an adaptor that allows us to connect the parallel LCD screen to the Arduino using the I2C serial bus.</h6><h6>The adapter I'll use in the demos is the <a href="http://amzn.to/2h8e23u" rel="nofollow" target="_blank">1602LCD Display I2C board</a></h6></li>
+            <li><a href="http://bit.ly/2gVRxyd" rel="nofollow" target="_blank">Single data wire LCD and I2C, Part 1</a><h6>In the LCD Lecture, you learned how to display text in a LCD screen. Although this was a simple way to show useful information to the user, the sheer number of wires required to make the LCD screen work makes this solution far from elegant.</h6><h6>In this lecture, you will learn a much improved solution to the same problem, one that involves a single data wire (plus power).</h6><h6>To achieve this reduction in total number of wires we have to switch the type of interface we use to connect the screen to the Arduino. Natively, the screen uses a parallel interface, where each of the 8 bits that make up a character encoding uses up a wire. In the previous class we used a 4-bit parallel mode instead of the full 8-bits in order to save 4 wires. Still, even 4 wires are too many for transferring data. We also needed wires for power, and for the screen backlit.</h6><h6>To improve the design, we'll use an adaptor that allows us to connect the parallel LCD screen to the Arduino using the I2C serial bus.</h6><h6>The adapter I'll use in the demos is the <a href="http://amzn.to/2h8e23u" rel="nofollow" target="_blank">1602LCD Display I2C board</a></h6></li>
             <li><a href="http://bit.ly/2g0iKeX" rel="nofollow" target="_blank">Single data wire LCD and I2C, Part 2</a><h6>In this Part 2, you will learn how to connect a second I2C device to the circuit from Demo 1. The second device is a real-time clock.</h6></li>
         </ul>
         
@@ -194,7 +194,7 @@ Category: Classes
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/working-with-lcd-tft-screens.html" title="Click For Details"><h4>Working With LCD TFT screens</h4></a></div>
+    <div class="panel-heading"><h4>Working With LCD TFT screens</h4></div>
     <div class="panel-body">
         <b>Modules:</b>
         <ul><li><a href="http://bit.ly/2gC6O3S" rel="nofollow" target="_blank">LCD TFT Screens</a></li><h6>In this lecture you learn how to add a TFT LCD screen to your Arduino project in order to produce colourful text and shapes. The lecture contains two demos in which you learn one of the common TFT LCD shields. In the first one, you learn how to use the screen itself, while in the second how to use the 5-button joystick that is integrated into the screen shield.</h6></ul>
@@ -231,7 +231,7 @@ Category: Classes
         <ul>
             <li><a href="http://bit.ly/2h2DaFD" rel="nofollow" target="_blank">Control an 8x8 LED matrix display with the MAX7219 controller</a><h6>In this lecture, you will learn how to use the MAX7219 LED controller IC with a single 8x8 matrix LED display. You can combine these two components together to create large LED matrix displays, but in this lecture we'll keep it simple. In a separate lecture, we'll expand to multi-display setups.</h6></li>
             
-            <li><a href="http://bit.ly/2h2HNiY" rel="nofollow" target="_blank">Visualise ADXL335 accelerometer data on an 8x8 LED matrix display</a><h6>In this presentation I will show you how to graph data from an ADXL335 on an 8x8 LED matrix display that we conected in the previous presentation.</h6></li>
+            <li><a href="http://bit.ly/2h2HNiY" rel="nofollow" target="_blank">Visualise ADXL335 accelerometer data on an 8x8 LED matrix display</a><h6>In this presentation you will learn how to graph data from an ADXL335 on an 8x8 LED matrix display that we conected in the previous presentation.</h6></li>
             
             <li><a href="http://bit.ly/2hiwLpi" rel="nofollow" target="_blank">Control multiple 8x8 LED matrix displays</a><h6>In this presentation, you will learn how to use the MAX7219 LED controller IC with four 8x8 matrix LED display.</h6></li>
         </ul>
@@ -311,39 +311,80 @@ Category: Classes
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/using-an-arduino-ethernet-shield.html" title="Click For Details"><h4>Using an Ethernet Shield</h4></a></div>
+    <div class="panel-heading"><h4>Using an Ethernet Shield</h4></div>
     <div class="panel-body">
-        <ul><li>How to get your Arduino gadget to speak to the Internet! In part 1, We will show you how to connect your <a href="http://amzn.to/2gO6AtX" rel="nofollow" target="_blank">Ethernet shield</a>, and how to make your Arduino part of your local network.</li></ul>
+    <b>Modules:</b>
+        <ul>
+            <li><a href="http://bit.ly/2gZCof6" rel="nofollow" target="_blank">The Ethernet shield, Part 1</a><h6>In this 2-part presentation you will learn how to get your Arduino gadget to speak to the Internet! In part 1, you will learn how to connect your Ethernet shield, and how to make your Arduino part of your local network. Specifically, you will be shown how to connect to the network by automatically acquiring an IP address via DHCP, or how to acquire an IP address manually.</h6><h6>In this presentation, I use the original Arduino Ethernet shield that is based on the w5100 chip. Ethernet shields with the w5200 chip are more common these days. To use a w5200-based shield, you will need to download the Ethernet_V2 library and use it instead of the one I use in the presentation. I link to Seedstudio which contains this library is available in the external resources.</h6></li>
+            
+            <li><a href="http://bit.ly/2gFsQCZ" rel="nofollow" target="_blank">The Ethernet shield, Part 2</a>In this 2nd part, you will learn how to turn on and off an LED, and to read light intensity through a Telnet connection to your Arduino from your computer.</li>
+        </ul>
+        
+    <b>Parts Needed:</b>
+        <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
+            <li>An <a href="http://amzn.to/2h9sjfV" rel="nofollow" target="_blank">LED</a></li>
+            <li>A <a href="http://amzn.to/2gesvpF" rel="nofollow" target="_blank">1KΩ Resistor</a></li>
+        </ul>
     </div>
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/setting-up-an-arduino-reporting-web-server.html" title="Click For Details"><h4>Setting up an Arduino Reporting Web server</h4></a></div>
+    <div class="panel-heading"><h4>Setting up an Arduino Reporting Web server</h4></div>
     <div class="panel-body">
-        <ul><li>Learn the principals of running a web server on the Arduino, examine the web server example that comes with the Arduino IDE, then look at a custom web server that reports temperature, humidity, and light intensity.</li></ul>
+    <b>Modules:</b>
+        <ul>
+            <li><a href="http://bit.ly/2gFBNMv" rel="nofollow" target="_blank">A simple Arduino reporting web server, Part 1</a><h6>Learn the basic principals of running a web server on the Arduino</h6></li>
+            <li><a href="http://bit.ly/2gfqwGM" rel="nofollow" target="_blank">A simple Arduino reporting web server, Part 2</a><h6>In part 2, we will examine the web server example that comes with the Arduino IDE.</h6></li>
+            <li><a href="http://bit.ly/2h9p1cR" rel="nofollow" target="_blank">A simple Arduino reporting web server, Part 3</a><h6>In part 3, we look at a custom web server that reports temperature, humidity, and light intensity.</h6></li>
+        </ul>
+    <b>Parts Needed:</b>
+        <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
+            <li><a href="http://amzn.to/2gO6AtX" rel="nofollow" target="_blank">Ethernet shield</a></li>
+            <li>A <a href="http://amzn.to/2h6OyjT" rel="nofollow" target="_blank">DHT11</a> or <a href="http://amzn.to/2h9uxvR" rel="nofollow" target="_blank">22</a> Temp/Humidity Sensor</li>
+            <li>A <a href="http://amzn.to/2gZDMOZ" rel="nofollow" target="_blank">photo-resistor</a></li>
+            <li>A <a href="http://amzn.to/2ho3TMv" rel="nofollow" target="_blank">10KΩ Resistor</a></li>
+        </ul>
     </div>
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/setting-up-an-arduino-controlling-web-server.html" title="Click For Details"><h4>Setting up an Arduino Controlling Web server</h4></a></div>
+    <div class="panel-heading"><h4>Setting up an Arduino Controlling Web server</h4></div>
     <div class="panel-body">
-        <ul><li>Learn how to setup a web server on the Arduino that allows you to control things remotely via a web browser. </li></ul>
+    <b>Modules:</b>
+        <ul>
+            <li><a href="http://bit.ly/2hjQ2e2" rel="nofollow" target="_blank">An Arduino controlling web server</a><h6>In this presentation, you will learn how to setup a web server on the Arduino that allows you to control LEDs via a web browser. You could replace the LEDs for other devices, like motors, without having to introduce significant changes to the sketch we'll see here. We will do this in the next presentation.</h6><h6>First we will look at the HTTP request parsing issues that we will need to deal with before implementing the controlling web server sketch. Because the web browser will be sending information with instructions to the Arduino, the Arduino's web server HTTP parser will have a lot more work to do.</h6></li>
+            
+            <li><a href="http://bit.ly/2h6Y32F" rel="nofollow" target="_blank">Controlling a motor with a web browser</a><h6>In this presentation, you'll learn how to send HTTP GET requests that contain values other than 1s and 0s as we did in the previous presentations. To do that I will demonstrate how you can control a DC motor through your web browser. Motor control requires sending direction and speed values to the Arduino from your web browser, and this adds realism to our controlling web server.</h6></li>
+        </ul>
+        
+    <b>Parts Needed:</b>
+        <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
+            <li><a href="http://amzn.to/2gO6AtX" rel="nofollow" target="_blank">Ethernet shield</a></li>
+            <li>One <a href="#" rel="nofollow" target="_blank">red LED</a></li>
+            <li>One <a href="#" rel="nofollow" target="_blank">yellow LED</a></li>
+            <li>Two <a href="http://amzn.to/2ho3TMv" rel="nofollow" target="_blank">10KΩ Resistors</a></li>
+            <li><a href="http://amzn.to/2hlstxa" rel="nofollow" target="_blank">L298N Motor Drive Controller</a></li>
+            <li>A battery pack with 4 x 1.5V AA bateries or a 18V-9V power supply</li>
+            <li>Four Jumper Wires</li>
+        </ul>
     </div>
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/web-logging-with-nimbus.html" title="Click For Details"><h4>Web Logging to Nimbus</h4></a></div>
+    <div class="panel-heading"><a href="/pages/web-logging-with-nimbus.html" title="Click For Details"><h4>Web Logging to Nimbus and Twitter</h4></a></div>
     <div class="panel-body">
-        <ul><li>Learn how to use a cloud logging service, Nimbits, to record your Arduino's sensor data. Nimbits is one of several such services, but I prefer it to others because it is fully open-source software, which means that you can even setup your own logging server with Nimbits.</li></ul>
+    <b>Modules:</b>
+        <ul>
+            <li><a href="http://bit.ly/2gZBSxF" rel="nofollow" target="_blank">Web logging to Nimbits, Part 1</a><h6>In this lecture you will learn how to use a cloud logging service, Nimbits, to record your Arduino's sensor data. Nimbits is one of several such services, but I prefer it to others because it is fully open-source software, which means that you can even setup your own logging server with Nimbits.</h6></li>
+            <li><a href="http://bit.ly/2goc5yn" rel="nofollow" target="_blank">Web logging to Nimbits, Part 2</a><h6>In part 2, I will walk through the logging sketch and post photo-resistor values to Nimbits.</h6><h6><b>IMPORTANT PLEASE READ BEFORE WATCHING THIS LECTURE:</b></h6><h6>Nimbits has released a new version of their API which has rendered part of this lecture out of date.</h6><h6>I have updated the sketch on Github so that it works with the latest changes in Nimbits.</h6><h6>Please read the notes in the root of the folder on Github, there's a couple of things worth knowing about the changes. The code is still fairly simple. (The link to the sketch on Github is below)</h6></li>
+            
+            <li><a href="#" rel="nofollow" target="_blank">Social logging to Twitter</a><h6>In this presentation I you will learn how to post your Arduino sensor data to Twitter using the arduinoTweet proxy server and library. You can setup your own instance of this proxy on your own server (you can use a free virtual server on Google's App Engine cloud service) so that you can control privacy and access, or use public instances like arduino-tweet.appspot.com or my own asbs-twitter.appspot.com.</h6><h6>In this presentation, you will learn how to set up your tweeting Arduino using asbs-twitter.appspot.com as the proxy. In the first demo, you will learn about getting the first tweet out there, and in the second, to post sensor data.</h6></li>
     </div>
 </div>
 
-<div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/social-logging-to-twitter.html" title="Click For Details"><h4>Social Logging To Twitter</h4></a></div>
-    <div class="panel-body">
-        <ul><li>Learn  how to post your Arduino sensor data to Twitter using the arduinoTweet proxy server and library. </li></ul>
-    </div>
-</div>
   
 <div class="panel panel-default panel-primary">
     <div class="panel-heading"><a href="/pages/wireless-connectivity-with-bluetooth.html" title="Click For Details"><h4>Wireless Connectivity with BlueTooth</h4></a></div>
@@ -362,7 +403,7 @@ Category: Classes
 <div class="panel panel-default panel-primary">
     <div class="panel-heading"><a href="/pages/wireless-connectivity-using-the-nrf24l01-transceiver-module.html" title="Click For Details"><h4>Wireless Connectivity Using the NRF24L01+ transceiver module</h4></a></div>
     <div class="panel-body">
-        <ul><li>In this class we show you how to use the cheap and reliable <a href="http://amzn.to/2gO8dYp" rel="nofollow" target="_blank">NRF24L01+</a> transceiver module. With this module you can achieve reliable point to point communications. We are showing you the basics so you can go on creating sophisticated wireless systems, including mesh sensor arrays!</li></ul> 
+        <ul><li>In this class you will learn how to use the cheap and reliable <a href="http://amzn.to/2gO8dYp" rel="nofollow" target="_blank">NRF24L01+</a> transceiver module. With this module you can achieve reliable point to point communications. We are showing you the basics so you can go on creating sophisticated wireless systems, including mesh sensor arrays!</li></ul> 
     </div>
 </div>
 
@@ -377,7 +418,7 @@ Category: Classes
 <div class="panel panel-default panel-primary">
     <div class="panel-heading"><h4>Using An SD Card</h4></div>
     <div class="panel-body">
-        <ul><li>In this 3-part class, we will show you how to take advantage of <a href="http://amzn.to/2fSSh2y" rel="nofollow" target="_blank">SD card mass storage using a cheap breakout.</a></li>
+        <ul><li>In this 3-part class, you will learn how to take advantage of <a href="http://amzn.to/2fSSh2y" rel="nofollow" target="_blank">SD card mass storage using a cheap breakout.</a></li>
 
          <li>SD cards have matured over the years. Their sizes have expanded to many gigabytes, and their prices have dropped to a few cents per gigabyte. Compared to build-in memory, SD cards offer a really good mass storage solution. On the Arduino, an SD card can be used with the appropriate hardware extension and with an easy to use library that comes with the IDE. Your Arduino <a href="http://amzn.to/2gO6AtX" rel="nofollow" target="_blank">Ethernet shield</a> comes with a micro-SD card slot, but you can also get them as a separate breakout board. In this class, we will use a dedicated, small and cheap break-out board.</li>
         </ul>
