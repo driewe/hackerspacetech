@@ -286,10 +286,27 @@ Category: Classes
 </div>
 
 <div class="panel panel-default panel-primary">
-    <div class="panel-heading"><a href="/pages/arduino-stepper-motors.html" title="Click For Details"><h4>Using Stepper motors</h4></a> </div>
+    <div class="panel-heading"><h4>Using Stepper motors</h4></div>
     <div class="panel-body">
-        <h4>Stepper Motors (6 Part Series)</h4>
-        <ul><li>Covers uni-polar geared and un-geared <a href="http://amzn.to/2gPRP7l" rel="nofollow" target="_blank">stepper motors</a>, both hooking up and controlling them.</li></ul>
+        <b>Modules:</b>
+        <ul>
+            <li><a href="http://bit.ly/2hlv5v1" rel="nofollow" target="_blank">Stepper motors Part 1: Introduction</a><h6>This presentation will introduce you to stepper motors. In Part 1, I discuss the basics of stepper motors and their most typical configurations. All demo sketches are available on Github.</h6></li>
+            
+            <li><a href="http://bit.ly/2glYUhB" rel="nofollow" target="_blank">Stepper motors Part 2: Connecting a unipolar un-geared motor</a><h6>In Part 2, you will learn how to wire up and use a unipolar un-geared motor.</h6></li>
+            
+            <li><a href="http://bit.ly/2hlEJ0P" rel="nofollow" target="_blank">Stepper motors Part 3: Controlling a unipolar un-geared motor</a><h6>In Part 3, you will learn how to control the speed of an un-geared using a potentiometer.</h6></li>
+            
+            <li><a href="http://bit.ly/2gmaGbv" rel="nofollow" target="_blank">Stepper motors Part 4: Connecting a unipolar geared motor</a><h6>In Part 4, you will learn how to connect a unipolar geared motor.</h6></li>
+            
+            <li><a href="http://bit.ly/2hlLG1V" rel="nofollow" target="_blank">Stepper motors Part 5: Using the AccelStep library</a><h6>In Part 5, you will learn how to connect a unipolar geared motor and control it using the AccellStep library.</h6></li>
+        </ul>
+        
+        <b>Parts Needed:</b>
+        <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino UNO</a></li>
+            <li><a href="http://amzn.to/2gPRP7l" rel="nofollow" target="_blank">stepper motors</a></li>
+            <li><a href="http://amzn.to/2hlstxa" rel="nofollow" target="_blank">L298N Motor Drive Controller</a></li>
+        </ul>
     </div>
 </div>
 
