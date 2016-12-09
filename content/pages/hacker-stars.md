@@ -1,4 +1,5 @@
 Title: Contributors At HackerSpace Tech
+status: hidden
 
 <div class="jumbotron">
 <div class="container-fluid">
@@ -10,6 +11,8 @@ Title: Contributors At HackerSpace Tech
           <li><p><h5><a href="/author/blaz-pongrac.html"><b>Blaž Pongrac</b></a> - A maker with almost 10 years of experience with Arduino programming and electronics and 2 years of experience with 3D printing (check out his <a href="http://www.thingiverse.com/vonPongrac/about" target="_blank">Thingiverse profile</a>. Blaž has a BSc from Automation and Robotics and is currently working on a MSc in the same field. Learn more about Blaž on <a href="https://www.fiverr.com/robosap" target="_blank">Fiverr</a> and <a href="http://www.instructables.com/member/vonPongrac" target="_blank">Instructables</a>. Also check <a href="https://www.facebook.com/vikitherobot" target="_blank">Viki One</a>, where he works as project manager.</h5></p></li>
           
           <li><p><h5><a href="/author/david-riewe.html"><b>David Riewe</b></a> - Electronics Tech with over 20 years of experience in the computer industry.  I enjoy building micro-controlled projects, programming and web development.  <a href="/pages/bio.html"> read my full bio here</a>. </h5> </li>
+          
+          <li><p><h5><a href="/author/mike-mcroberts.html"><b>Mike McRoberts</b></a> - Hackster.io London Ambassador. Author of 'Beginning Arduino'. Member of Medway Makers, Maidstone Hackspace & North Kent Raspberry Pi User Group.</h5></p></li>
           
           <li><p><h5><b><a href="/author/scott-reesor.html">Scott Reesor</b></a> - An electrical engineer with industrial experience ranging from electrical drives to PCB design. Designing PCB’s is not just a vocation but a very serious hobby that He really enjoys doing. Scott is always designing new boards as a way testing new circuits and ideals plus it provides him with a way of improving upon his skills as a designer. Not only does He design the PCB’s in Eagle Cad but He also fabricates the boards himself as a way of further testing the design.  Scott has some great projects and tutorials in the work for our readers.  Meanwhile, learn more about Scott on his <a href="https://www.fiverr.com/engineering6000" target="_blank">fiverr</a> page.</h5></p></li>
 

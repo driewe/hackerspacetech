@@ -3,7 +3,7 @@ Date: 2016-11-20
 Category: Blog
 Tags: Arduino, Tutorials, LDR, light sensor
 Author: Blaž Pongrac
-email: blaz@pongrac.com
+Email: blaz@pongrac.com
 
 
 <div class="container-fluid">

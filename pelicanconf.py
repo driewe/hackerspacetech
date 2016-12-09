@@ -27,7 +27,7 @@ SITEMAP = {
 
 AUTHOR = 'Hacker Space Tech'
 AUTHOR_EMAIL = 'david@davidriewe.com'
-ABOUT_ME = 'We a motivated group of hardware hackers who like learning about technology and building cool things.  To learn more about the display above <a href="http://hackerspacetech.com/building-a-16x32-neopixel-display.html">Click Here</a>.  To learn more about the Contributors at Hacker Space Tech <a href="/pages/hacker-stars.html">Click Here</a><br><br>'
+ABOUT_ME = 'We a motivated group of hardware hackers who like learning about technology and building cool things.  To learn more about the display above <a href="http://hackerspacetech.com/building-a-16x32-neopixel-display.html">Click Here</a>.  To learn more about the Contributors at Hacker Space Tech <a href="/pages/hacker-stars.html">Click Here</a>'
 #ABOUT_ME = 'Electronics Tech with over 20 years of experience in the computer industry.  I enjoy building micro-controlled projects, programming and web development.  <a href="/pages/bio.html"> read my full bio here</a>
 #AVATAR = '/images/avatar2.jpg'
 AVATAR = '/images/animatedlogocropped.gif'
@@ -66,7 +66,7 @@ MENUITEMS = (
     ('Meetups', '/pages/meetups.html'),
     ('Classes', '/pages/classes.html'),
     ('Arduino Crash Course','http://freecourse.hackerspacetech.com'),
-    ('Contributors', '/pages/hacker-stars.html'),
+    ('Contributors', '/pages/contributors-at-hackerspace-tech.html'),
     ('Tutorials', '/pages/tutorials.html'),
     ('Contact', '/pages/contact.html')
 )
