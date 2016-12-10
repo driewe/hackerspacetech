@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Intel Edison threshold WiFi Grapher</title>
+        <meta name="tags" content="Arduino, Intel Edison, WiFi, Tutorials" />
+        <meta name="date" content="2016-12-09" />
+        <meta name="modified" content="2016-12-09" />
+        <meta name="category" content="blog" />
+        <meta name="authors" content="Stephen Borsay" />
+        <meta name="summary" content="This teaching project comprises of two sections. The first object was to make a simple prototyping venture that understudies could plan on a breadboard with simple info (potentiometer) and advanced yield (LEDs). The second part of the venture adds the additional code expected to make this an "IoT" extend. This second part sends the simple info estimation of the potentiometer(pot) as WiFi information yield to a diagram on the ThingSpeak.com site." />
+        <meta name="email" content="stephen@borsay.com" />
+    </head>
+    <body>
+        <b>About this project</b>
+<p>This project is of two parts; first we construct a pot value controlled LED lighter then we connect it to WiFi for cloud graphing.</p>
+<b>Parts used</b>
+<ul>
+<li><a href="http://amzn.to/2hpxhWy" rel="nofollow" target="_blank">Edison</a></li>
+<li><a href="http://amzn.to/2hgaqfE" rel="nofollow" target="_blank">Jumper Wires</a></li>
+<li><a href="http://amzn.to/2h9yCzM" rel="nofollow" target="_blank">LED</a></li>
+<li><a href="http://amzn.to/2gm139y" rel="nofollow" target="_blank"></a></li>
+<li><a href="http://amzn.to/2gm3IjA" rel="nofollow" target="_blank">Breadboard</a></li>
+</ul>
+<b>Overview of project</b>
+<p>This teaching project comprises of two sections. The first object was to make a simple prototyping venture that understudies could plan on a breadboard with simple info (potentiometer) and advanced yield (LEDs). The second part of the venture adds the additional code expected to make this an "IoT" extend. This second part sends the simple info estimation of the potentiometer(pot) as WiFi information yield to a diagram on the ThingSpeak.com site.</p>
+<b>Step 1</b>
+<p>For the initial segment of the project we are interfacing a Potentiometer to the Intel Edison board on the pins determined in the code. We have to interface the "wiper" line of the pot, which is ordinarily the center pot stick, to a simple information. It isn't vital in the event that we turn around the 5V voltage and ground lines associated with the pot as potentiometers are not questioning, the main outcome will be an inversion of the pots revolution esteem being upset.</p>
+<p>On the Edison we are furnished with six devoted simple lines recorded as A0-A5 on the board. Once the pot is associated and read the esteem is standardized in the code. Since the esteem is standardized on Arduino, naturally 0-1023, we can set up edges in light of different info estimations of our decision. I have picked five yields in light of the standardized estimation of 1023/5.</p>
+<p>Notwithstanding you can split this esteem up as indicated by however numerous limits as you like. From the code you can see that these "limit reaches" are assigned to five distinct pins which control a LED dependent upon the position the pot handle is turned. Every stick ought to be assigned and associated with a yield stick on the Edison board. I have utilized a "draw down" resistor to ensure the LEDS associated through an all inclusive ground on the breadboard. Resistor qualities aren't that import, anything from 100-500 Ohms ought to function admirably to securely handle the voltage drop over the LEDs.</p>
+<b>Step 2</b>
+<p>The second part of the venture "wraps" the prototyping segment to a WiFi association calculation which transmits your standardized potentiometer qualities to the ThingSpeak site. For the second a portion of this venture you will require your WiFi name, watchword, and ThingSpeak Write API key. Every one of the three bits of WiFi information are entered at the highest point of the gave Edison draw. For the second part of the venture you will use the Edisons WiFi library (WiFi.h), luckily this library is incorporated when you download the Edison Board Manager bundle to your Arduino IDE with no additional work.</p>
+<p>While the LED edge qualities are lite progressively, the pot esteem is just transmitted to Thingspeak just once at regular intervals. This constrained transfer interim time is because of ThingSpeak permitting boundless demands for nothing. It would require considerably more cost and assets for Thingspeak to permit quick transmission and boundless solicitations. The final product is that the pot esteem chart on the Thingspeak recorded isn't "constant" per sec, it is a specimen of the pot esteem once like clockwork.</p>
+
+<div class="row text-center">
+<b>Intel Edison</b>
+<img src="/images/intel-edison-threshold-wifi-grapher/edison.jpg" class="img-responsive center-block img-rounded"></div>
+<div class="row text-center">
+    <b>Code</b></div>
+        <center>
+        <div class"well center-block" style="width: 80%">
+<script src="https://gist.github.com/driewe/e232cac47c05cc7c65d5df1f60cd58b6.js"></script>
+            </div></center>
+    </body>
+</html>
+
+

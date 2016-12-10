@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <title>Neo-Pixel Ring Clock - ESP8266 Controlled</title>
+        <meta name="tags" content="Arduino, ESP8266, neopixel, Tutorials" />
+        <meta name="date" content="2016-12-08" />
+        <meta name="modified" content="2016-12-08" />
+        <meta name="category" content="blog" />
+        <meta name="authors" content="Mike McRoberts" />
+        <meta name="summary" content="The ESP8266 is perfect for this as has wifi so the time can be gotten over WiFi and it can likewise control the Neopixel Ring. I utilize the Wemos D1 Mini as they are extremely easy to utilize, have a miniaturized scale USB association for power and information, cost just a couple bucks and can be utilized effortlessly with the Arduino IDE. This is an extremely basic venture with basic code and very little in the method for a circuit." />
+        <meta name="email" content="mike@mcroberts.com" />
+    </head>
+    <body>
+
+<b>Parts Used:</b>
+<ul>
+<li><a href="http://amzn.to/2hfkcvD" rel="nofollow" target="_blank">Everything ESP Wemos D1 Mini</a></li>
+<li><a href="http://amzn.to/2gMd5u7" rel="nofollow" target="_blank">Adafruit 24 RGB LED Neopixel Ring</a></li>
+</ul>
+
+<p>I purchased a 24 LED Neopixel Ring and was attempting to choose what to do with it. I had initially moved toward utilizing the ring for a Cheerlights extend however subsequent to making a Cheerlight out of it I concluded this was a horrible misuse of the ring. In this way, one end of the week when going by my neighborhood Makerspace (Medway Makers in the UK) I chose I would make a check out of it. </p>
+
+<p>The ESP8266 is perfect for this as has wifi so the time can be gotten over WiFi and it can likewise control the Neopixel Ring. I utilize the Wemos D1 Mini as they are extremely easy to utilize, have a miniaturized scale USB association for power and information, cost just a couple bucks and can be utilized effortlessly with the Arduino IDE. This is an extremely basic venture with basic code and very little in the method for a circuit. </p>
+
+<p>The Neopixel ring has 3 associations: 5v, Ground and Data. You should simply to weld 3 wires to these 3 cushions on the ring. VCC and Gnd go to 5v and Ground on your D1 Mini and the Data stick can go to any yield stick.</p>
+
+<center><img src="images/neopixel-ring-clock/image_1.jpg" class="img-responsive img-rounded"></center>
+
+<p>The Code Requires 3 libraries:</p>
+
+<div class"well" style="width: 300px"><pre><code ><span>      #include &lt;Adafruit_NeoPixel.h&gt;</span>
+<span>      #include &lt;ESP8266WiFi.h&gt;</span>
+<span>      #include &#34;TimeClient.h&#34;</span></code></pre></div>
+
+
+<p>The Adafruit_NeoPixel library can be downloaded <a href="https://github.com/adafruit/Adafruit_NeoPixel">here</a></p>
+<p>The TimeClient library is part of the Squix Weather Station code and can be downloaded <a href="https://github.com/squix78/esp8266-weather-station">here</a></p>
+<p>Just copy the TimeClient.cpp and TimeClient.h files into your sketch folder.</p>
+<p>The TimeClient library works by interfacing with the web by means of WiFi and going to www.google.com. It then scratches the header of the website page to acquire the time and date from the header.</p>
+<p>The ESP8266WiFi library accompany the Arduino IDE when you introduce the ESP8266 as a perceived board. Bear in mind to introduce the ESP8266 documents utilizing the Arduino IDE Boards Manager before you begin your venture. </p>
+<p>We will utilize Pin 5 on the D1 Mini for the information line. </p>
+
+<div class"well" style="width: 300px"><pre><code><span>    #define PIN D5</span></code></pre></div>
+
+<p>We have to monitor, in our code, when the last overhaul of the time from the web happens furthermore to what extent it has been since one moment back (to monitor seconds).</p>
+
+<div class"well" style="width: 300px"><pre><code><span>    long lastUpdate = millis();</span>
+    <span>long lastSecond = millis();</span>
+</code></pre></div>
+<p>The hours, minutes and seconds are stored in a String variable.</p>
+
+<div class"well" style="width: 300px"><pre><code><span>     String hours, minutes, seconds;</span></code></pre></div>
+
+<p>As well as the current second, minute and hour which we keep track of.</p>
+
+<div class"well" style="width: 400px"><pre><code><span>     int currentSecond, currentMinute, currentHour;</span></code></pre></div>
+
+
+<p>Character arrays are used to store your WiFi SSID and Password. Enter your own details here:</p>
+        <div class"well" style="width: 475px"><pre><code><span>     char ssid[] = "xxxxxxx";  //  your network SSID (name)</span>
+<span>     char pass[] = "xxxxxxx";  // your network password</span></code></pre></div>
+
+
+<p>I live in London so I have 0 hours offset from UTC, except in Summer Time when it will be 1 hour. Set the offset for your own time zone.</p>
+
+        <div class"well" style="width: 300px"><pre><code><span>    const float UTC_OFFSET = 0;</span></code></pre></div>
+
+
+<p>We create a timeClient object and pass it the UTC offset.</p>
+
+        <div class"well" style="width: 300px"><pre><code><span>    TimeClient timeClient(UTC_OFFSET);</span></code></pre></div>
+
+
+<p>Then create a NeoPixel object, call it 'strip' and pass it the number of LED's and what pin we are using for the data line.</p>
+
+        <div class"well" style="width: 450px"><pre><code><span>    Adafruit_NeoPixel strip = Adafruit_NeoPixel(24, PIN);</span></code></pre></div>
+
+
+<p>In the setup function we will start off by opening serial comms for debug purposes.</p>
+
+<div class"well" style="width: 300px"><pre><code><span>    void setup()</span>
+<span>    {</span>
+<span>        Serial.begin(115200);</span></code></pre></div>
+
+
+<p>Then the NeoPixel ring needs to be initialised and we set brightness to 50%</p>
+
+<div class"well" style="width: 300px"><pre><code><span>    strip.setBrightness(128);</span></code></pre></div>
+
+
+<p>Nothing happens on the ring until we do a .show command.</p>
+
+<div class"well" style="width: 300px"><pre><code><span>    strip.show();</span></code></pre></div>
+
+<p>Next we connect to your WiFi</p>
+
+<div class"well" style="width: 350px"><pre><code><span>    WiFi.begin(ssid, pass);</span>
+<span>    while (WiFi.status() != WL_CONNECTED) </span>
+<span>    {...</span></code></pre></div>
+
+<p>Then update the time from the timeClient library.</p>
+
+<div class"well" style="width: 300px"><pre><code><span>    timeClient.updateTime();</span></code></pre></div>
+ 
+<p>Next we run our own function called updateTime(); which calls the library functions to get the current hours, minutes and seconds.</p>
+ 
+<div class"well" style="width: 300px"><pre><code><span>    updateTime();</span></code></pre></div>
+ 
+<p>At long last, before the fundamental circle, we recover and store the present estimation of millis() so we can track of to what extent it has been since we last redesigned the time from the web furthermore monitor track of the seconds as they go by so the second "hand" can be overhauled.</p>
+ 
+
+<div class"well" style="width: 300px"><pre><code><span>    lastUpdate = millis();</span>
+<span>    lastSecond = millis();</span></code></pre></div>
+
+
+<p>The setup function is complete. Next the main loop function will run.</p>
+
+<div class"well" style="width: 300px"><pre><code><span>    void loop()</span></code></pre></div>
+
+<p>If 1,800,000 milliseconds (30 minutes) have passed by since we last updated the time, we update the time again from the internet.</p>
+
+<div class"well" style="width: 450px"><pre><code><span>    if ((millis() - lastUpdate) > 1800000) updateTime();</span></code></pre></div>
+
+<p>The hours, minutes and seconds are updated on the display every second so we need to check if 1000 milliseconds have passed since we last updated the display. If so the code within the if statement is carried out.</p>
+
+        <div class"well" style="width: 300px"><pre><code><span>    if ((millis() - lastSecond) > 1000)</span></code></pre></div>
+
+<p>The colours of the 'hands' are:</p>
+<ul>
+<li>RED = Hours</li>
+<li>GREEN = Minutes</li>
+<li>BLUE = Seconds</li>
+</ul>
+<p>The .setPixelColor command is utilized to set the shades of the 'hands'. The ring I utilized had 24 RGB LED's so the seconds and minutes get separated by 2.5 so they are shown on the right quadrant of the ring, the hour (24 hour arrange) gets isolated by 2. Prior to the time is transformed we set the present "hands" to OFF to clear the last positions.</p>
+
+        <div class"well" style="width: 450px"><pre><code><span>    strip.setPixelColor(currentSecond / 2.5, 0, 0, 0);</span>
+<span>    strip.setPixelColor(currentMinute / 2.5, 0, 0, 0);</span>
+<span>    strip.setPixelColor(currentHour * 2, 0, 0, 0);</span>
+<span>    strip.show();</span></code></pre></div>
+
+<p>The current value of millis() is now stored.</p>
+
+        <div class"well" style="width: 300px"><pre><code><span>    lastSecond = millis();</span></code></pre></div>
+
+
+<p>Next, the value put away in currentSecond is expanded by 1. We then check if the seconds have gone more than 59 and if so set them back to 0. At the point when that happens we additionally increment the minutes by 1 and do a similar check. In the event that the minutes go more than 59 then we likewise increment the hour by 1.</p>
+
+<div class"well" style="width: 350px"><pre><code><span>currentSecond++;</span>
+<span>   if (currentSecond > 59)</span>
+<span>   { currentSecond = 0;</span>
+<span>     currentMinute++;</span>
+<span>     if (currentMinute > 59) {</span>
+<span>       currentMinute = 0;</span>
+<span>       currentHour++;</span>
+<span>       if (currentHour > 12) currentHour = 0;</span>
+<span>     }</span>
+<span>   }</span></code></pre></div>
+
+<p>Although not necessary, I print out the current time to the serial monitor window for debugging purposes. I use a String object to generate the time string.</p>
+
+<div class"well" style="width: 500px"><pre><code><span>    String currentTime = String(currentHour) + ':' </span>
+<span>       + String(currentMinute) + ':' + String(currentSecond);</span>
+<span>    Serial.println(currentTime);</span></code></pre></div>
+
+<p>Since the seconds, minutes and hours have been upgraded we can set the important "hands" to their separate RGB values.</p>
+
+<div class"well" style="width: 500px"><pre><code><span>    strip.setPixelColor(currentSecond / 2.5, 0, 0, 255);</span>
+<span>    strip.setPixelColor(currentMinute / 2.5, 0, 255, 0);</span>
+<span>    strip.setPixelColor(currentHour * 2, 255, 0, 0);</span>
+<span>    strip.show();</span></code></pre></div>
+
+<p>At last we make our own particular capacity called updateTime(). This gets overhauled toward the begin and after that again like clockwork after to keep exact time.</p>
+
+<div class"well" style="width: 300px"><pre><code><span>    void updateTime();</span>
+<span>    {</span></code></pre></div>
+
+<p>We obtain the hours, minutes and seconds from the timeClient library.</p>
+
+<div class"well" style="width: 300px"><pre><code><span>    hours = timeClient.getHours();</span>
+<span>    minutes = timeClient.getMinutes();</span>
+<span>    seconds = timeClient.getSeconds();</span></code></pre></div>
+
+<p>and store those values as integers (They are returned as strings from the timeClient library). 24 hours are converted to 12 hour format.</p>
+
+<div class"well" style="width: 300px"><pre><code><span>    currentHour = hours.toInt();</span>
+<span>    if (currentHour > 12) currentHour = currentHour - 12;</span>
+<span>    currentMinute = minutes.toInt();</span>
+<span>    currentSecond = seconds.toInt();</span></code></pre></div>
+
+<p>Finally, we want to be able to check that 30 mins have passed since the last update so we store the current value of millis() again.</p>
+
+<div class"well" style="width: 300px"><pre><code><span>    lastUpdate = millis();</span></code></pre></div>
+
+<p>My clock is presently only a model on a breadboard, as should be obvious in the picture. Be that as it may, this would look incredible underneath some scratched white acrylic so I provoke you to utilize the code above to make your own particular ring clock and make something delightful out of it.</p>
+
+<div class"well" style="width: 80%">
+<div class="row text-center">
+    <b>Code</b></div>
+    <center>
+    <div class"well center-block" style="width: 80%">
+        <script src="https://gist.github.com/driewe/4dd3cd02fd875438339ec78fe95198d3.js"></script></div>
+    </center>
+</body>
+</html>
