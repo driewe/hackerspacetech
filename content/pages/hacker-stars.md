@@ -20,7 +20,6 @@ status: hidden
           
           <li><p><h5><b><a href="/author/slant-concepts.html">Slant Concepts</b></a> - Slant is a group of makers and engineers creating robots and other gadgets.  Follow them on <a href="https://www.hackster.io/slantconcepts" rel="nofollow" target="_blank">Hackster.io</a>.</h5></p></li>
           
-          <li><p><b><h5><a href="/author/stephen-borsay">Stephen Borsay</a></b> - Degreed computer engineer, embedded system maker, <a href="https://www.hackster.io/detox" rel="nofollow" target="_blank">Hackster.io Ambassador</a>, Udemy teacher, and instructor of the Digital Design Workshop in Portland, Oregon.</h5></p></li>
 
      </ul></div>
   </div>
