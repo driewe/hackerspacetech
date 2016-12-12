@@ -63,7 +63,7 @@ DISPLAY_PAGES_ON_MENU = False
 
 MENUITEMS = (
     ('Blog', '/category/blog.html'),
-    ('Meetups', '/pages/meetups.html'),
+    ('Meetups', 'http://www.meetup.com/hackerspacetech/'),
     ('Classes', '/pages/classes.html'),
     ('Arduino Crash Course','http://freecourse.hackerspacetech.com'),
     ('Featured Hackers', '/pages/featured-hackers.html'),
