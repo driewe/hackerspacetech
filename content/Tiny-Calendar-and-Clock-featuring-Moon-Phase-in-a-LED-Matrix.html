@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title>Tiny Calendar and Clock featuring Moon Phase in a LED Matrix</title>
+        <meta name="tags" content="Arduino, RTC, LED, Matrix, Tutorials" />
+        <meta name="date" content="2016-12-12" />
+        <meta name="modified" content="2016-12-12" />
+        <meta name="category" content="blog" />
+        <meta name="authors" content="Luis Antonio Silva" />
+        <meta name="summary" content="This project introduce to you a tiny calendar using a LED Matrix and includes many features like the Moon phase! Using the idea of a complete monthly calendar and also including features like digital clock, number of the week of the year and the Moon phases." />
+        <meta name="email" content="luis@silva.com" />
+    </head>
+    <body>
+       
+        <b>About This Project</b>
+        <p>This project introduce to you a tiny calendar using a LED Matrix and includes many features like the Moon phase!</p>
+        <b>Parts Used In Project</b>
+        <ul>
+            <li><a href="http://amzn.to/2guHM9Z" rel="nofollow" target="_blank">Arduino Uno</a></li>
+            <li><a href="http://amzn.to/2gw3pYw" rel="nofollow" target="_blank">Rotary Encoder with Push-Button</a></li>
+            <li><a href="http://amzn.to/2hoY3ve" rel="nofollow" target="_blank">Real Time Clock (RTC)</a></li>
+            <li><a href="http://amzn.to/2hls4hY" rel="nofollow" target="_blank">Breadboard (generic)</a></li>
+            <li><a href="http://amzn.to/2gs9bFP" rel="nofollow" target="_blank">Maxim Integrated Max7219 LED Matrix</a></li>
+            <li><a href="http://amzn.to/2hgaqfE" rel="nofollow" target="_blank">Jumper wires (generic)</a></li>
+        </ul>
+        
+        <b>Introduction</b>
+        
+        <p>After I did my venture Binary Clock in a LED lattice, I began to build up the possibility of a total month to month logbook furthermore including highlights like advanced clock, number of the week of the year and the Moon stages. The outcome is the Tiny Calendar where I have presented a great deal of elements in a solitary LED lattice. </p>
+        <p>To be competent to show such a great amount of data in a 8 x 8 network, a few qualities were appeared in double documentation like the quantities of the week, month and year. </p>
+        <p>A troublesome test was about the best approach to demonstrate the entire logbook as indicated by right days of week for a specific year and the arrangement you will see is totally unique for this sort of use.</p>
+        
+        <div class="container-fluid">
+            <row>
+                <div class="col-sm-4">
+                    <a href="/images/tiny-calendar-clock/image_1.jpg" title="Click To Enlarge"><img src="/images/tiny-calendar-clock/image_1.jpg" class="img-rounded img-responsive img-thumbnail"></a>
+                    <h6 class="text-center">Tiny Calendar with Southern Template</h6>
+                </div>
+
+                <div class="col-sm-4">
+                    <a href="/images/tiny-calendar-clock/image_2.jpg" title="Click To Enlarge"><img src="/images/tiny-calendar-clock/image_2.jpg" class="img-rounded img-responsive img-thumbnail"></a>
+                    <h6 class="text-center">Hour in Digital Format</h6>
+                </div>
+                <div class="col-sm-4">
+                    <a href="/images/tiny-calendar-clock/image_3.jpg" title="Click To Enlarge"><img src="/images/tiny-calendar-clock/image_1.jpg" class="img-rounded img-responsive img-thumbnail"></a>
+                    <h6 class="text-center">Minutes in Digital Format</h6>
+                </div>
+            </row>
+        </div>
+        <div class="container-fluid">
+            <row>
+                <div class="col-sm-4">
+                    <a href="/images/tiny-calendar-clock/image_4.jpg" title="Click To Enlarge"><img src="/images/tiny-calendar-clock/image_4.jpg" class="img-rounded img-responsive img-thumbnail"></a>
+                    <h6 class="text-center">Tiny Calendar without Template</h6>
+                </div>
+
+                <div class="col-sm-4">
+                    <a href="/images/tiny-calendar-clock/image_5.jpg" title="Click To Enlarge"><img src="/images/tiny-calendar-clock/image_5.jpg" class="img-rounded img-responsive img-thumbnail"></a>
+                    <h6 class="text-center">View All Components</h6>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </row>
+        </div>
+        <br
+            
+    
+ 
+            
+        <center><b>Video</b></center>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/87UpHQqewMI" frameborder="0" allowfullscreen></iframe></center>
+        
+        <b>Assembly</b>
+        <p>The assembly is exceptionally straightforward because of the utilization of secluded parts. Simply take after the schematic and take mind with the wires associations.</p>
+        <p>Print the relating format of the Hemisphere (Northern or Southern) where do you live, cut and put it over the LED network agreeing with the position appeared in the photos</p>
+        <b>Programming</b>
+        <p>As I specified toward the starting, the fundamental test of this venture was to discover an approach to put all data on a solitary show 8x8 furthermore how to oversee separately every one of the LEDs of the lattice.</p>
+        <p>To bolster me in this errand, I did a model on Excel Worksheet recreating this operation with Visual Basic programming. The alternative to utilize the rotating encoder was because of its exactness. I attempted to utilize potentiometers, yet the outcomes were not agreeable in this application.</p>
+        <p>For the clock, I chose to apply the <b>TimerOne</b> library to peruse the rotational encoder every 1 millisecond and the outcomes were better than average. </p>
+        <p>To deal with the paging highlight, I utilized the capacities <b>while()</b> and <b>millis()</b> to control the circle of date-book amid 30 seconds and afterward the show is cleaned to demonstrate the season of advanced clock.</p>
+        <p>These are the libraries I have used with Arduino IDE:</p>
+        <ul>
+            <li><b>Time.h</b> - Library with date and time functions</li>
+            <li><b>LedControl.h</b> - Library to control the LED Matrix</li>
+            <li><b>Wire.h</b> - Library to support the DS130RTC</li>
+            <li><b>DS130RTC.h</b> - Library of the Real Time Clock</li>
+            <li><b>Bounce2.h</b> - Library to read the button of rotary encoder</li>
+            <li><b>TimerOne.h</b> - Library of the Timer 1 to read the rotary encoder.</li>
+        </ul>
+        <p>Identified with the Moon stage math, I needed a calculation that was adequate for quotidian application without the logical precision of a routine with long figurings.</p>
+        
+        <b>Operation</b>
+        <p>The operation of Tiny Calendar is truly basic and all the control is done utilizing the revolving encoder. Most importantly, you have to choose with the push catch of revolving encoder what include would you like to utilize like the day, month or year.</p>
+        <p>The element that was chosen is highlighted with a short squint of comparing LEDs. To peruse the attributes of Week, Month and Year, you require entirety all quantities of every one that are with the LEDs turned on.</p>
+        <center><img src="/images/tiny-calendar-clock/image_6.jpg"></center>
+        <h6 class="text-center">Week=13(8+4+1)/Month=3(2+1)/Year=2015(8+4+2+1)</h6>
+        <p>The Hour is shown in digital format and in the row of matrix (used to show the Year too) you can see the LEDs corresponding to 16 and 8 turned on, representing the 24 hours (16 + 8). For the Minutes, the LEDs corresponding to 32, 16, 8, 4 (sum is 60 minutes) in the last row of matrix are turned on indicating they are shown the minutes.</p>
+            
+        <div class="container-fluid">
+            <row>
+                <div class="col-sm-6">
+                    <a href="/images/tiny-calendar-clock/image_7.jpg" title="Click To Enlarge"><img src="/images/tiny-calendar-clock/image_7.jpg" class="img-rounded img-responsive img-thumbnail"></a>
+                    <h6 class="text-center">Time: 20 Hours</h6>
+                </div>
+
+                <div class="col-sm-6">
+                    <a href="/images/tiny-calendar-clock/image_8.jpg" title="Click To Enlarge"><img src="/images/tiny-calendar-clock/image_8.jpg" class="img-rounded img-responsive img-thumbnail"></a>
+                    <h6 class="text-center">Time: 38 Minutes</h6>
+                </div>
+            </row>
+        </div>
+        <p>For the Calendar, the fundamental reference is the segment that is flickering. This section speaks to the Sunday (first day of the week). The following section at right is Monday, then Tuesday thus on until Saturday.</p>
+        <p>Note: The Sunday column can move for any other column depending of month and year set in the calendar.</p>
+        <center><img src="/images/tiny-calendar-clock/image_1.gif"</center>
+        <h6 class="text-center">Blinking collumn is Sunday. Blinking day is 21(Saturday). Moon phase blinking is New Moon.</h6>
+        <br><br>
+        <b>Schematic</b>
+        <center><img src="/images/tiny-calendar-clock/schematic.jpg" width="80%"></center>
+            <div class"well" style="width: 80%">
+                <script src="https://gist.github.com/driewe/93236f81cba25b8b1f06f363c1a6c931.js"></script>
+            </div>
+            
+            <div class="text-center"><h6>Content edited by HackerSpaceTech as granted by <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" rel="nofollow" target="_blank">CC BY-NC-SA</a> does not carry any endorsement from original author</h6></div>
+    </body>
+          
+        
+</html>
