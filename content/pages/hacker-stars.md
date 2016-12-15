@@ -16,6 +16,8 @@ status: hidden
           
           <li><p><h5><a href="/author/mike-mcroberts.html"><b>Mike McRoberts</b></a> - <a href="https://www.hackster.io/mike-mcroberts" rel="nofollow" target="_blank">Hackster.io London Ambassador</a>. Author of 'Beginning Arduino'. Member of Medway Makers, Maidstone Hackspace & North Kent Raspberry Pi User Group.</h5></p></li>
           
+          <li><p><h5><a href="/author/oliver-chen.html"><b>Oliver Chen</b></a> - Maker, Mentor, and Educator</h5></p></li>
+          
           <li><p><h5><b><a href="/author/scott-reesor.html">Scott Reesor</b></a> - An electrical engineer with industrial experience ranging from electrical drives to PCB design. Designing PCB’s is not just a vocation but a very serious hobby that He really enjoys doing. Scott is always designing new boards as a way testing new circuits and ideals plus it provides him with a way of improving upon his skills as a designer. Not only does He design the PCB’s in Eagle Cad but He also fabricates the boards himself as a way of further testing the design.  Scott has some great projects and tutorials in the work for our readers.  Meanwhile, learn more about Scott on his <a href="https://www.fiverr.com/engineering6000" rel="nofollow" target="_blank">fiverr</a> page.</h5></p></li>
           
           <li><p><h5><b><a href="/author/slant-concepts.html">Slant Concepts</b></a> - Slant is a group of makers and engineers creating robots and other gadgets.  Follow them on <a href="https://www.hackster.io/slantconcepts" rel="nofollow" target="_blank">Hackster.io</a>.</h5></p></li>

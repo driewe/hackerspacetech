@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <title>Arduino101 BLE Autonomous Rover</title>
+        <meta name="tags" content="Arduino, Arduino101, Rover, BLE, Tutorials" />
+        <meta name="date" content="2016-12-15" />
+        <meta name="modified" content="2016-12-15" />
+        <meta name="category" content="blog" />
+        <meta name="authors" content="Oliver Chen" />
+        <meta name="summary" content="This project is an extension of the Arudino101 BLE Rover, where I had supplied some Seeedstudio Skeleton Bot 4WD mobile robotic platform kits to a team conducting a Maker experience for Oakland, CA High School students. The intent of this tutorial is to show how by adding sensors you can create a platform to explore how to program an autonomous self driving vehicle." />
+        <meta name="email" content="Oliver@Chen.com" />
+        
+    </head>
+    <body>
+        <img src="images/ble-autonomous-rover/tmp_image_0.jpg" class="img-responsive img-rounded center-block" style="padding:30px"> 
+        <h4>About This Project:</h4>
+        <p>This project is an expansion of the Arudino101 BLE Rover, where I had provided some Seeedstudio Skeleton Bot 4WD versatile mechanical stage packs to a group directing a Maker encounter for Oakland, CA High School understudies. The purpose of this instructional exercise is to show how by including sensors you can make a stage to investigate how to program a self-ruling self driving vehicle.</p>
+        <br>
+        <h4>Parts used in project</h4>
+        <ul>
+            <li><a href="http://amzn.to/2hRDhnc" rel="nofollow" target="_blank">Arduino 101</a></li>
+            <li><a href="http://amzn.to/2hoFFEK" rel="nofollow" target="_blank">SeeedStudio Skeleton Bot - 4WD Mobile Robotic Platform</a></li>
+            <li><a href="http://amzn.to/2hoCBsB" rel="nofollow" target="_blank">SeeedStudio Grove Starter Kit for Arduino101</a></li>
+            <li><a href="http://amzn.to/2gOKiHv" rel="nofollow" target="_blank">SeeedStudio Grove I2C Motor Driver Board</a></li>
+            <li><a href="http://amzn.to/2hA81cS" rel="nofollow" target="_blank">SeeedStudio Grove 80cm Infrared Proximity Sensor</a></li>
+        </ul>
+        <br>
+        <h4>Section 1: Assemble the basic rover</h4>
+        <p>This project depends on the Arduino 101 BLE rover, so you can audit the Assemble the Rover and Electrical Assembly Steps. I have included definite headings, as I have changed the introduction of the Arduino101 mount point, and utilize a moment engine controller to diminish likely hood of free wires after impacts.</p>
+        <p>Mount the Arduino101 and Motor Controllers – Mount the Arduino101 onto the acrylic mounting plate and secure it with the metal screws. Mount the engine controller onto the acrylic mounting plate and secure it with the little metal screws. Set the engine controller so that the one mounted in the center is 1, and the one in the front is 2 (see figure 1).</p>
+        <img src="images/ble-autonomous-rover/image_1.jpg" class="img-responsive img-rounded center-block" style="padding:30px">
+        <div class="text-center"><h6>figure 1</h6></div>
+        
+        <p>Gather the power links – The battery pack parts the yield between the engines and different gadgets. Amass the power links as appeared in the photo (see figure 2).</p>
+        <img src="images/ble-autonomous-rover/image_2.jpg" class="img-responsive img-rounded center-block" style="padding:30px">
+        <div class="text-center"><h6>figure 2</h6></div>
+        
+        <p>Power links and engine wires – Pass the power links and engine wires through the acrylic mounting plate. Take note of the area of the engine controller terminals; attempt to course the engine wires nearer to them (see figure 3).</p>
+        
+        <img src="images/ble-autonomous-rover/image_3.jpg" class="img-responsive img-rounded center-block" style="padding:30px">
+        <div class="text-center"><h6>figure 3</h6></div>
+        
+        <p>Wire motors to motor controllers – There are a sum of 8 wires (2 for each engine) shading coded in sets. Associate every engine to the engine controllers in view of the accompanying: right side engine wires go to the engine controller terminals amidst the skeleton; left side engine wires go to the engine controller terminals in the front of the suspension (see figure 4).</p>
+        
+        <img src="images/ble-autonomous-rover//image_4.jpg" class="img-responsive img-rounded center-block" style="padding:30px">
+        <div class="text-center"><h6>figure 4</h6></div>
+        
+        <p>Wire power cables – Wire the power cables to the motor controllers (red is positive, black is negative). Make sure to tighten all terminals to prevent wires from disconnecting (see figure 5).</p>
+        
+        <img src="images/ble-autonomous-rover/image_5.jpg" class="img-responsive img-rounded center-block" style="padding:30px">
+        <div class="text-center"><h6>figure 5</h6></div>
+        
+        <p>Introducing the Grove Shield – Insert the Grove shield onto the Arduino breakout board. Associate the engine controllers to the Grove Shield in any I2C named port utilizing the Grove links (see figure 6).</p>
+        <img src="images/ble-autonomous-rover/image_6.jpg" class="img-responsive img-rounded center-block" style="padding:30px">
+        <div class="text-center"><h6>figure 6</h6></div>
+        
+        <p>Mounting the Acrylic Plate and Add Sensors – Secure the acrylic plate to the principle case utilizing the four metal connectors. Interface the Grove LED to Grove Shield port D2 (see figure 7).</p>
+        <img src="images/ble-autonomous-rover/image_7.jpg" class="img-responsive img-rounded center-block" style="padding:30px">
+        <div class="text-center"><h6>figure 7</h6></div>
+        
+        <p>Mounting the Aluminum Plate – Secure the aluminum mounting plate on top of the acrylic mounting plate utilizing the screws (see figure 8).</p>
+        <img src="images/ble-autonomous-rover/image_8.jpg" class="img-responsive img-rounded center-block" style="padding:30px">
+        <div class="text-center"><h6>figure 8</h6></div>
+        
+        <p>Installing the wheels – Install the 4 wheels onto the drive shafts (see figure 9).</p>
+        <img src="images/ble-autonomous-rover/image_9.jpg" class="img-responsive img-rounded center-block" style="padding:30px">
+        <div class="text-center"><h6>figure 9</h6></div>
+        
+        <h4>Section 2: Programming the basic rover</h4>
+        <p>Interface the DC barrel jack to the Arduino 101. Associate the Li-Po battery to the Dean's male Traxxas association. Associate a USB programming link to the Arduino 101 and to your PC.</p>
+        <p>You'll require the Arduino IDE introduced on your PC, with the Intel Curie Core (see Arduino 101 beginning.) If you are new to Arduino, it's a smart thought to keep running in the Arduino IDE File - > Examples - > 01.Basics - > Blink to check that everything is working. The squinting on board LED can be seen from the side of the meanderer under the Grove Shield. Once that is checked you can stack the code, which is in the venture code area.</p>
+        <p>I utilize an indistinguishable Arduino101 and Grove Motor Controller from the Programming the Arduino101 for a fundamental wanderer so look at it for a review of how BLE is setup, and the engines are controlled utilizing the Grove Motor Controller. Since the first base model code utilized one engine controller, and two are utilized here, there are some essential changes that I needed to make</p>
+        <p>In any case, the main real augmentation that I added was to prepare the entire UART transmitted string rather simply the primary character. This permits the charges between the meanderer and the BLE cell phone to be more comprehensible. For instance, "a" go ahead got to be: "Auto:Up" and "b" turn left got to be: "Auto:Left".</p>
+        <p>This additionally implies the BLE Mobile control interface utilizing nRF tool stash UART needs to send diverse strings than that of the first venture, which utilized single characters for development. In this venture:</p>
+        <ul>
+            <li>“Auto:Up” Moves the rover - Forward</li>
+            <li>“Auto:Left” Moves the rover - Left</li>
+            <li>“Auto:Right” Moves the rover - Right</li>
+            <li>“Auto:Back” Moves the rover - Reverse</li>
+            <li>“Auto:Stop” Stops the rover</li>
+        </ul>
+        
+        <p>You can configure nRF toolbox to act as a mobile BLE interface, by following these steps:</p>
+        <ol>
+            <li>Install nRF Toolbox for your mobile device in either the iOS or Android app store.</li>
+            <li>Launch the nRF Toolbox on your mobile device.</li>
+            <li>Select the UART icon. There are nine user definable buttons in a 3x3 grid. If this is the first time, the default layout is called UART and blank.</li>
+            <li>Press the ‘EDIT’ button in the upper right corner.</li>
+        </ol>
+        
+        <p>The framework shading will turn orange demonstrating it is in "Alter" show. Touching an individual catch in the network raises a setup screen where you can pick a symbol for that catch, and enter the fitting string. Do this for every one of the 5 meanderer orders. You can spare this to another name (see figures 10-12)</p>
+        
+        
+        
+        <div class="container-fluid">
+            <row>
+                <div class="col-sm-4">
+                    <h6 class="text-center">figure 10</h6>
+                    <a href="/images/ble-autonomous-rover/image_10.jpg" title="Click To Enlarge"><img src="/images/ble-autonomous-rover/image_10.jpg" class="img-rounded img-responsive img-thumbnail"></a>
+                </div>
+                <div class="col-sm-4">
+                    <h6 class="text-center">figure 11</h6>
+                    <a href="/images/ble-autonomous-rover/image_11.jpg" title="Click To Enlarge"><img src="/images/ble-autonomous-rover/image_11.jpg" class="img-rounded img-responsive img-thumbnail"></a>
+                </div>
+                <div class="col-sm-4">
+                    <h6 class="text-center">figure 12</h6>
+                    <a href="/images/ble-autonomous-rover/image_12.jpg" title="Click To Enlarge"><img src="/images/ble-autonomous-rover/image_12.jpg" class="img-rounded img-responsive img-thumbnail"></a>
+                </div>
+            </row>
+        </div>
+       
+        <br>
+        <ol start="5">
+            <li>Select the ‘DONE’ button to run.</li>
+            <li>Select ‘CONNECT’.</li>
+            <li>Select the BLE name from your Arduino sketch, 4WDUART for example.</li>
+            <li>Press the defined buttons to move the rover.</li>
+            <li>Press ‘DISCONNECT’.</li>
+            <li>Exit the app.</li>
+        </ol>
+        <br>
+        <h4>Section 3: Basic troubleshooting</h4>
+        
+        <p>If the motors do not turn at all, the I2C Grove Motor Drivers my need to be reset via a small button on the board (see figure 13).</p>
+        
+        <p>To confirm that the wiring was done effectively, test code for the engine drivers can be utilized. If you don't mind reference the Testing Motor Control venture of Arduino101 BLE Rover extend this depends on for more subtle elements.</p>
+        
+        <p>To verify BLE connectivity, nRF Connect for mobile can be used. Please reference the <a href="https://www.hackster.io/shadeydave/arduino-101-ble-rover-remote-control-ae03be?ref=search&ref_id=arduino101&offset=1" rel="nofollow" target="_blank">Arduino101 BLE Rover Remote Control</a> for more details.</p>
+        <br>
+        <h4>Section 4: Adding autonomous mode</h4>
+        <p>I included a Grove 80cm Infrared Proximity Sensor to the front of the meanderer to distinguish approaching impediments. It is joined to the Grove shield at port A0 by a Grove link. By utilizing the code piece on the sensor's wiki, I found that I could distinguish obstructions with enough time to respond when the simple voltage was >1. With the second significant expansion of the base meanderer code, I included support for a self-ruling mode, where when the UART sends a string "Auto:Auto" the wanderer drives forward until a snag is recognized, and after that the meanderer will substitute turning left and appropriate for shirking.</p> 
+        
+        <p>To change the nRF Toolbox to support the autonomous mode, follow this proceedure:</p>
+        <ol>
+            <li>Execute the nRF Toolbox on your mobile device.</li>
+            <li>Choose the UART icon. Choose the UART layout that you had configured for the basic rover.</li>
+            <li>Press the "Edit" catch in the upper right corner. The framework shading will turn orange demonstrating it is in "Alter" show. Touching an individual catch in the matrix raises a setup screen where you can pick a symbol for that catch, and enter the proper string. Touch an unused catch, and set the symbol to play and set the string to "Auto:Auto".</li>
+            <li>Chose the ‘DONE’ button to run.</li>
+            <li>Chose ‘CONNECT.</li>
+            <li>Chose the BLE name from your Arduino sketch, 4WDUART for example.</li>
+            <li>Chose the defined buttons to move the rover.</li>
+            <li>Chose ‘DISCONNECT</li>
+            <li>Exit the app.</li>
+        </ol>
+        <br>
+        <h4>Section 5: Final comments and further enhancements</h4>
+        <p>This venture expands on top of the first Arduino101 BLE meanderer by utilizing sensors to make a stage where designers can attempt their hands at programming an independent vehicle. Things to investigate promote on the wanderer code are: more modern deterrent shirking, numerous nearness sensors to permit the meanderer to recognize and respond to various sorts of crashes, distinctive sorts of sensors to upgrade for lighting conditions. Things to investigate promote on the BLE gadget are: interfaces past the straightforward advanced 3x3 catch framework like a simple joystick, or directing haggle quickening agent pedal, and controlling numerous meanderers from the same BLE focal gadget in the meantime. Things to investigate advance on utilize cases are: genuine execution of a run truck computer game with sensors distinguishing powers ups, apply autonomy challenges like line taking after.</p>
+        
+        <img src="/images/ble-autonomous-rover/schem1.png" width="80%" class="img-responsive img-rounded center-block" style="padding:30px">
+        
+        <img src="images/ble-autonomous-rover/schem2.png" width="80%" class="img-responsive img-rounded center-block" style="padding:30px">
+        
+        <script src="https://gist.github.com/driewe/f910b150ce3b8243b286837979606a2c.js"></script>
+        
+            <br>
+            <div class="text-center"><h6>Content edited by HackerSpaceTech as granted by <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow" target="_blank">CC BY-SA</a> does not carry any endorsement from original author</h6></div>
+    </body>
+          
+        
+</html>
