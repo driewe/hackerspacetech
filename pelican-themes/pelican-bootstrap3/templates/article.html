@@ -100,7 +100,7 @@
                 </div>
                 {{ article.content }}
             </div>
-               
+            
             <div class="well">
                 <a href="{{ SITEURL }}/{{ article.author.url }}" title="See posts by {{ article.author}}">
                     {%if article.author_gravatar %}
@@ -111,15 +111,11 @@
                     <small class="about-author">{{ article.about_author }}</small>
                     <h5>Published</h5>
                     <p>{{ article.locale_date }}</p>
-                
-
-                
-                
             </div>
-                    
+            {% include 'includes/addthis.html' %}      
             {% include 'includes/related-posts.html' %}
             {% include 'includes/series.html' %}
-            {% include 'includes/addthis.html' %}
+            
             {% include 'includes/shariff.html' %}
             {% include 'includes/comments.html' %}
          
