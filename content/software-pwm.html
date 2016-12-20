@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Software PWM for controlling LEDs </title>
+        <meta name="tags" content="Arduino, LED, PWM, Tutorials" />
+        <meta name="date" content="2016-12-20" />
+        <meta name="modified" content="2016-12-20" />
+        <meta name="category" content="blog" />
+        <meta name="authors" content="Blaž Pongrac" />
+        <meta name="summary" content="LED’s brightness can be controlled with Pulse Width Modulation or PWM. Arduino only have so many PWM ports. Did you ever wonder how to control the LED on any Arduino Pin? Here is how you can make it. " />
+        <meta name="email" content="Blaz@Pongrac.com" />
+        
+    </head>
+    <body>
+   
+        <p>LED’s brightness can be controlled with Pulse Width Modulation or PWM. Arduino only have so many PWM ports. Did you ever wonder how to control the LED on any Arduino Pin? Here is how you can make it.</p>
+        <img class="img-responsive img-rounded center-block" style="padding:30px" src="images/software-pwm/img1.jpg">
+        <p>Let me talk first about PWM. PWM signal is digital signal modulation with HIGH and LOW states. It is basically a square wave with constant frequency f and with variable duty cycle d. Duty cycle is ratio between period T of the signal (1/f) and length of the HIGH state. For example: if period of the signal is 20 ms and length of the HIGH state is 5 ms, duty cycle would be d = 5/20 = 0.25 or 25%</p>
+        <img class="img-responsive img-rounded center-block" style="padding:30px" src="images/software-pwm/img2_pwm.jpg">
+        <p>By setting the duty cycle we can affect the lit time of the LED and by using frequencies that our eye cannot distinguish (usually higher than 40 Hz) for refresh rate, we get a feeling LED isn’t blinking. If for example duty cycle is set to 25% that means LED is lit 25% of the time. Our eye will see LED dimmed at about 25%. If duty cycle is set to 75% LED will be brighter and with duty cycle at 100% LED would be the brightest. When using analogWrite() function, this is easy. But How to do the same on pins that does not have option for PWM?</p>
+        <p>As said before, we need signal with constant frequency/period. The best way to set duty cycle is to divide period into several smaller steps. These steps count as different duty cycles. If there are 20 steps in one period, this means that we can set our PWM with 5% resolution.</p>
+        <img class="img-responsive img-rounded center-block" style="padding:30px" src="/images/software-pwm/img3_flow.png">
+        <p>Flow chart is showing, how software PWM should look like. If we want 50% duty cycle, first 10 steps in the period output would be HIGH and the last 10 steps in the period output should be LOW. Here a few examples:</p>
+        <ul>
+            <li>10% duty cycle --> first 2 steps HIGH, other LOW</li>
+            <li>25% duty cycle --> first 5 steps HIGH, other LOW</li>
+            <li>75% duty cycle --> first 15 steps HIGH, other LOW</li>
+        </ul>
+        <p>I think you get the idea. This code can be used to implement dimming or raising the brightness of the LED, like in the example bellow, or controlling single LED. I would not recommend using this code with any other longer bits of the code, because results may not be as predicted.</p>
+        
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/RZUymWv7KRA" frameborder="0" allowfullscreen></iframe>
+        
+        <div class"well" style="width: 80%">
+            <script src="https://gist.github.com/driewe/9220de9f8584763ad454f1c8f03cb52d.js"></script>
+        </div>
+       
+    </body>
+</html>

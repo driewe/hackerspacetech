@@ -6,6 +6,7 @@
 </style>
 {% extends "base.html" %}
 
+
 {% block title %}{{ article.title|striptags }} - {{ SITENAME }}{% endblock %}
 {% block html_lang %}{{ article.lang }}{% endblock %}
 {% block meta %}
@@ -98,8 +99,11 @@
                     </div>
                 </div>
                 </div>
+                <div class="container-fluid" style="width:80%">
                 {{ article.content }}
+                </div>
             </div>
+            
             
             <div class="well">
                 <a href="{{ SITEURL }}/{{ article.author.url }}" title="See posts by {{ article.author}}">
