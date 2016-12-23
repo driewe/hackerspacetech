@@ -2,7 +2,7 @@ Title: Teach the Particle Photon to Text In 5 Minutes
 Date: 2016-12-22
 Category: Blog
 Tags: Particle Photon, Twillo, Tutorials
-Author: Kevin Sidwell
+Author: Kevin Sidwar
 Email: kevin@sidwar.com
 
 

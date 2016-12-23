@@ -12,7 +12,7 @@ status: hidden
           
           <li><p><h5><a href="/author/david-riewe.html"><b>David Riewe</b></a> - Electronics Tech with over 20 years of experience in the computer industry.  I enjoy building micro-controlled projects, programming and web development.  <a href="/pages/bio.html"> read my full bio here</a>. </h5></p> </li>
           
-          <li><p><h5><a href="/author/kevin-sidwell"><b>Kevin Sidwell</b></a> - Software Guy with an EE Degree. Obsessed with teaching people about the Internet of Things. Check out his <a href="https://www.youtube.com/user/microcasts">YouTube Channel</a> and <a href="https://twitter.com/kevinsidwar">Follow Him</a> on <a href="https://twitter.com/kevinsidwar">Twitter</a></h5></p></li>
+          <li><p><h5><a href="/author/kevin-sidwar"><b>Kevin Sidwar</b></a> - Software Guy with an EE Degree. Obsessed with teaching people about the Internet of Things. Check out his <a href="https://www.youtube.com/user/microcasts">YouTube Channel</a> and <a href="https://twitter.com/kevinsidwar">Follow Him</a> on <a href="https://twitter.com/kevinsidwar">Twitter</a></h5></p></li>
           
           <li><p><h5><a href="/author/luis-antonio-silva.html"><b>Luis Antonio Silva</b></a> - I am a Mechanical Engineer and a maker enthusiast. I like to develop new ideas combining electronics and programming. Follow Luis on <a href="https://www.hackster.io/lagsilva" rel="nofollow" target="_blank">Hackster.io</a></h5></p></li>
           
